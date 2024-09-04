@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import Operation from "./pages/Operation/Operation";
 import Company from "./pages/Company/Company";
 import Coverage from "./pages/Coverage/Coverage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,7 +24,10 @@ function App() {
         <Route path="/cobertura" element={<Coverage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+
+      <Footer />
     </div>
+    
   );
 }
 

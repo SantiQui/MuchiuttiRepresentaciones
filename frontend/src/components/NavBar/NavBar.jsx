@@ -2,8 +2,12 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 import { pages } from "../../utils/navbarlinks";
+<<<<<<< HEAD
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
+=======
+import "./NavBar.css";
+>>>>>>> 75c328ffd93c3045a210518977e425101014dc0b
 
 const CustomNavbar = () => {
   const location = useLocation();
