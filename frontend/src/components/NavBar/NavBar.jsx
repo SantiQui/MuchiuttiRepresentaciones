@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 import { pages } from "../../utils/navbarlinks";
 import "./NavBar.css";
+import logo from "../../assets/logo.png";
 
 const CustomNavbar = () => {
   const location = useLocation();
