@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 import { pages } from "../../utils/navbarlinks";
 import "./Navbar.css";
+import logo from "../../assets/logo.png";
 
 const CustomNavbar = () => {
   const location = useLocation();
@@ -12,16 +13,16 @@ const CustomNavbar = () => {
     <div>
       <div className="flex justify-center info-navbar">
         <div className="navbar-container w-full flex justify-between">
-          <div>REPRESENTANTE - DISTRIBUIDOR</div>
-          <div> Líneas rotativas 0342 1234 4567 info@muchhiutti.com.ar</div>
+          <div className="fs-8 ">REPRESENTANTE - DISTRIBUIDOR</div>
+          <div className="fs-8 ds-none"> Líneas rotativas 0342 1234 4567 info@muchhiutti.com.ar</div>
         </div>
       </div>
       <Navbar expand="lg" className="shadow-sm">
         <Container className="navbar-container">
           <Navbar.Brand href="/">
-            <img src="yourLogoPath" alt="Logo" style={{ height: "50px" }} />
+            <img src={logo} alt="Logo" style={{ height: "50px" }} />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle className="navbar-toogle" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               {pages.map((page) => (
@@ -37,7 +38,7 @@ const CustomNavbar = () => {
                 </Nav.Link>
               ))}
             </Nav>
-            <Nav>
+            <Nav className="navbar-social ">
               <Nav.Link href="https://facebook.com" target="_blank" className="text-muted">
                 <i className="bi bi-facebook"></i>
               </Nav.Link>
