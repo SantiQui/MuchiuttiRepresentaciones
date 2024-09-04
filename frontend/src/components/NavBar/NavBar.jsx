@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 import { pages } from "../../utils/navbarlinks";
-import "./Navbar.css";
+import "./NavBar.css";
 
 const CustomNavbar = () => {
   const location = useLocation();
