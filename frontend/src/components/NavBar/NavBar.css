@@ -1,0 +1,17 @@
+.info-navbar {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 5px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.custom-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container {
+  max-width: 1080px !important;
+}
