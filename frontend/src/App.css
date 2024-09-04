@@ -8,6 +8,10 @@
   /* position: absolute; */
 }
 
+.w-max {
+  max-width: 1080px !important;
+}
+
 .w-full {
   width: 100% !important;
 }
@@ -60,6 +64,10 @@
   justify-content: end;
 }
 
+.ds-none {
+  display: block;
+}
+
 .items-center {
   align-items: center;
 }
@@ -67,7 +75,6 @@
 .text-center {
   text-align: center;
 }
-
 
 .card {
   padding: 2em;
@@ -77,3 +84,15 @@
   color: #888;
 }
 
+.custom-color-muchiutti {
+  color: #ff0000;
+}
+
+@media screen and (max-width: 720px) {
+  .ds-none {
+    display: none;
+  }
+  .w-max {
+    max-width: 95vw !important;
+  }
+}
