@@ -24,7 +24,8 @@ function App() {
         <Route path="/cobertura" element={<Coverage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer/>
+
+      <Footer />
     </div>
     
   );
