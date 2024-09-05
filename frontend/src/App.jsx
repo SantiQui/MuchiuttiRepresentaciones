@@ -10,24 +10,25 @@ import Operation from "./pages/Operation/Operation";
 import Company from "./pages/Company/Company";
 import Coverage from "./pages/Coverage/Coverage";
 import Footer from "./components/Footer/Footer";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
     <div style={{ width: "100vw" }}>
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contacto" element={<Contact />} />
-        <Route path="/catalogos" element={<Catalogs />} />
-        <Route path="/empresa" element={<Company />} />
-        <Route path="/operatoria" element={<Operation />} />
-        <Route path="/cobertura" element={<Coverage />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-
+      <Container className="containerElement">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contacto" element={<Contact />} />
+          <Route path="/catalogos" element={<Catalogs />} />
+          <Route path="/empresa" element={<Company />} />
+          <Route path="/operatoria" element={<Operation />} />
+          <Route path="/cobertura" element={<Coverage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Container>
       <Footer />
     </div>
-    
   );
 }
 

@@ -15,16 +15,25 @@
 .navbar-container {
   max-width: 1080px !important;
   margin: 0 2rem;
+  padding: 0 !important;
 }
 
 .navbar-toogle {
   border: 0 !important;
   box-shadow: none !important;
+  margin: 0 !important;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 950px){
+  .navbar-container {
+    max-width: 90vw !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
   .navbar-container {
     justify-content: center;
+    max-width: 90vw !important;
   }
   .navbar-social {
     display: flex !important;

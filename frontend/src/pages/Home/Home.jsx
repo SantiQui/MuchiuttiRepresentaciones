@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className=" w-max flex flex-col items-center">
+    <div className="w-max flex flex-col items-center">
       <div>background image transporte</div>
       {/* <div className="flex flex-col items-center"> */}
       <div className="w-full">
