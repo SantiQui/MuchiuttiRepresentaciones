@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="w-max flex flex-col items-center">
       <div>background image transporte</div>
-      {/* <div className="flex flex-col items-center"> */}
+
       <div className="w-full">
         <i class="bi bi-bullseye size-home-icons " />
         <h3 class="text-uppercase custom-color-muchiutti">Misión</h3>
@@ -24,7 +24,6 @@ const Home = () => {
         <h3 class="text-uppercase custom-color-muchiutti">Responsabilidad social</h3>
         <p>Acompañamos a instituciones de nuestra comunidad, apadrinando su funcionamiento y actividades .</p>
       </div>
-      {/* </div> */}
     </div>
   );
 };

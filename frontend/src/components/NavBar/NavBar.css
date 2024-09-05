@@ -24,7 +24,7 @@
   margin: 0 !important;
 }
 
-@media screen and (min-width: 950px){
+@media screen and (min-width: 950px) {
   .navbar-container {
     max-width: 90vw !important;
   }
@@ -42,5 +42,12 @@
   .navbar-social a {
     margin-top: 10px;
     margin-right: 10px;
+    border: none !important;
+  }
+  .navbar-nav a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.087);
+  }
+  .navbar-nav a:hover {
+    border-bottom: 1px solid rgba(82, 82, 82, 0.219);
   }
 }
