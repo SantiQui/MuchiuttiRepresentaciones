@@ -10,7 +10,7 @@ const CustomNavbar = () => {
   const currentPath = location.pathname;
 
   return (
-    <div >
+    <div className="fixed-top" style={{backgroundColor: "#fbfbfb"}}>
       <div className="flex justify-center info-navbar">
         <div className="navbar-container w-full flex justify-between">
           <div className="fs-8">REPRESENTANTE - DISTRIBUIDOR</div>
