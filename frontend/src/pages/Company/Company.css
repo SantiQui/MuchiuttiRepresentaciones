@@ -1,6 +1,9 @@
 .info-somos{
     background-color: red;
+    margin-top: 100px;
     padding: 2rem;
+
+
 }
 .somos-text{
     color: aliceblue;
@@ -11,8 +14,3 @@
     padding: 2rem;
 }
 
-footer{
-    background-color: gray;
-    color:aliceblue;
-    padding: 2rem;
-}

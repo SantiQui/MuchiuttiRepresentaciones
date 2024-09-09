@@ -3,11 +3,8 @@ import "./Company.css"
 const Company = () => {
   return (
     <div>
-      <div>
-        <img src="" alt="" />
-      </div>
-      <div className="info-somos">
-        <p className="somos-text w-full flex text-center">
+      <div className="info-somos w-full">
+        <p className="somos-text flex text-center">
           Somos representantes y distribuidores de productos de consumo masivo. 
           Trabajamos con todos los segmentos del mercado: mayoristas y minoristas. 
           Prestamos servicios de logística a empresas nacionales y multinacionales 
