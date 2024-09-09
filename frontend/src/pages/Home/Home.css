@@ -1,0 +1,65 @@
+.background-transporte {
+  background-image: url("../../assets/camion-home.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-muchiutti {
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+}
+
+.red-transparent-truck {
+  position: relative;
+  background-image: url("../../assets/camion-home.jpg");
+  height: 85vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.red-transparent-truck::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c03f3df0;
+  z-index: 1;
+}
+
+.row-background-red {
+  color: white;
+  z-index: 2;
+}
+
+.size-experience-icons {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.line-h-experience {
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (min-width: 1050px) {
+  .red-transparent-truck {
+    height: 45vh;
+  }
+  .row-background-red {
+    width: 100%;
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .background-transporte {
+    height: 70vh;
+  }
+}

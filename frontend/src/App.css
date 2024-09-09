@@ -8,6 +8,23 @@
   /* position: absolute; */
 }
 
+.containerElement {
+  width: 100vw !important;
+  max-width: 1080px !important;
+  padding: 0 !important;
+  min-height: 100vh !important;
+  margin: auto !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-content: center !important;
+  margin-top: -110px !important;
+}
+
+.w-max {
+  max-width: 1080px !important;
+}
+
 .w-full {
   width: 100% !important;
 }
@@ -45,7 +62,7 @@
 }
 
 .justify-center {
-  justify-content: center;
+  justify-content: center !;
 }
 
 .justify-evenly {
@@ -60,14 +77,17 @@
   justify-content: end;
 }
 
+.ds-none {
+  display: block;
+}
+
 .items-center {
-  align-items: center;
+  align-items: center !important;
 }
 
 .text-center {
   text-align: center;
 }
-
 
 .card {
   padding: 2em;
@@ -77,3 +97,25 @@
   color: #888;
 }
 
+.custom-color-muchiutti {
+  color: #ff0000;
+}
+
+@media screen and (max-width: 950px) {
+  .ds-none {
+    display: none;
+  }
+  .w-max {
+    max-width: 90vw !important;
+  }
+}
+
+
+@media screen and (min-width: 420px) {
+  .w-max {
+    max-width: 90vw !important;
+  }
+  .containerElement {
+    width: 90vw !important;
+  }
+}

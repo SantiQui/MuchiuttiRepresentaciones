@@ -1,6 +1,9 @@
 .info-somos{
     background-color: red;
+    margin-top: 100px;
     padding: 2rem;
+
+
 }
 .somos-text{
     color: aliceblue;
@@ -10,5 +13,4 @@
 .div-story{
     padding: 2rem;
 }
-
 
