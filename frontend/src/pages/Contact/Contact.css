@@ -1,5 +1,5 @@
 .img-contacto {
-  height: 45vh;
+  height: 55vh;
 }
 
 .contact-movile {
@@ -8,6 +8,9 @@
 }
 
 @media screen and (min-width: 1050px) {
+  .img-contacto {
+    height: 80vh;
+  }
   .contact-movile {
     display: flex;
     justify-content: space-between;
