@@ -30,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-max w-full">
+    <div className="w-max w-full pb-5">
       <Formik
         initialValues={{ fullName: "", reason: "", email: "", phone: "", message: "" }}
         validationSchema={validationSchema}
