@@ -8,8 +8,9 @@
 
 .cta-muchiutti {
   font-size: 0.9rem;
-  color: white;
+  color: #000;
   text-decoration: none;
+  border: none !important;
 }
 
 .red-transparent-truck {
@@ -29,12 +30,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #c03f3df0;
+  background-color: #fefae0e5;
+  color: #000 !important;
   z-index: 1;
 }
 
 .row-background-red {
-  color: white;
   z-index: 2;
 }
 

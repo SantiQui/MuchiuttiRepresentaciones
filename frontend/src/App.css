@@ -98,7 +98,16 @@
 }
 
 .custom-color-muchiutti {
-  color: #ff0000;
+  color: #ccd5ae !important;
+}
+
+.cstm-sec-color {
+  color: #FAEDCD !important;
+}
+
+.bg-color-muchiutti {
+  background-color: #ccd5ae !important;
+  color: #000 !important;
 }
 
 @media screen and (max-width: 950px) {
@@ -110,8 +119,7 @@
   }
 }
 
-
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 420px) {
   .w-max {
     max-width: 90vw !important;
   }

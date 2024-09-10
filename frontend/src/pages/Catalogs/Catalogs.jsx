@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/Header/Header";
 
-const Catalogs = () => {
+const Catalogs = ({ currentPath }) => {
   return (
-    <div>Catalogs</div>
-  )
-}
+    <div>
+      <Header currentPath={currentPath} />
+    </div>
+  );
+};
 
-export default Catalogs
+export default Catalogs;

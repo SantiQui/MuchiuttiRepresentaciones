@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/Header/Header";
 
-const Coverage = () => {
+const Coverage = ({ currentPath }) => {
   return (
-    <div>Coverage</div>
-  )
-}
+    <div>
+      <Header currentPath={currentPath} />
+    </div>
+  );
+};
 
-export default Coverage
+export default Coverage;
