@@ -11,11 +11,12 @@ import Company from "./pages/Company/Company";
 import Coverage from "./pages/Coverage/Coverage";
 import Footer from "./components/Footer/Footer";
 import { useLocation } from "react-router-dom";
+import IconWppSticky from "./components/IconWppSticky/IconWppSticky";
 
 function App() {
   const location = useLocation();
   const currentPath = location.pathname;
-  
+
   return (
     <div style={{ width: "100vw" }}>
       <Nav currentPath={currentPath} />
@@ -28,6 +29,7 @@ function App() {
         <Route path="/cobertura" element={<Coverage currentPath={currentPath} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <IconWppSticky />
       <Footer />
     </div>
   );
