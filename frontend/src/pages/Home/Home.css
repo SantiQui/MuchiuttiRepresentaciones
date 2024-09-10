@@ -2,9 +2,17 @@
   background-image: url("../../assets/camion-home.webp");
   height: 100vh;
   width: 100%;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.background-slogan {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-weight: 600;
+  color: #fff;
 }
 
 .cta-muchiutti {
@@ -51,6 +59,9 @@
 }
 
 @media screen and (min-width: 1050px) {
+  .background-slogan {
+    top: 85%;
+  }
   .red-transparent-truck {
     height: 45vh;
   }

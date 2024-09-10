@@ -8,7 +8,7 @@ const Contact = ({ currentPath }) => {
   return (
     <div style={{ backgroundColor: " #fefae0 " }} className="w-full flex flex-col items-center">
       <Header currentPath={currentPath} />
-      <div className="py-5">
+      <div className="pt-5 w-full w-max">
         <h1 className="py-5 fw-bold text-center">Contáctenos</h1>
         <div className="contact-movile flex flex-col items-center">
           <ContactForm />
