@@ -1,0 +1,19 @@
+.img-contacto {
+  height: 45vh;
+}
+
+.contact-movile {
+  max-width: 1080px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1050px) {
+  .contact-movile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .contact-movile div form {
+    width: 75%;
+  }
+}

@@ -34,7 +34,7 @@
 }
 
 .w-50 {
-  width: 50%;
+  width: 50% !important;
 }
 
 .w-33 {
@@ -97,12 +97,18 @@
   color: #888;
 }
 
+.text-danger {
+  width: 100% !important;
+  padding-bottom: 15px;
+  font-size: 12px;
+}
+
 .custom-color-muchiutti {
   color: #ccd5ae !important;
 }
 
 .cstm-sec-color {
-  color: #FAEDCD !important;
+  color: #faedcd !important;
 }
 
 .bg-color-muchiutti {

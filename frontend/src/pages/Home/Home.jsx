@@ -17,9 +17,9 @@ const Home = () => {
       </div>
       <div className="w-max flex flex-col items-center py-5">
         <p class="text-center">
-          Todo comenzo hace más de 40 años con un sueño y un objetivo a alcanzar, hoy trabajamos como representantes y
-          distribuidores de grandes marcas, realizamos logística para empresas nacionales y multinacionales con entregas
-          en cada punto de venta
+          Desde hace más de 40 años, somos una empresa familiar dedicada a la representación y distribución de productos
+          de consumo masivo en Santa Fe y Entre Ríos. Combinamos atención personalizada con herramientas digitales,
+          representando marcas líderes y brindando soluciones estratégicas a mayoristas, distribuidores y supermercados.
         </p>
         <Button style={{ border: "none" }} className="my-4 bg-color-muchiutti">
           <Link to="/empresa" className="cta-muchiutti fw-bold">
@@ -32,7 +32,7 @@ const Home = () => {
           <Col className="w-full flex flex-col items-center ">
             <i className="bi bi-hourglass-split size-experience-icons" />
             <p className="fw-bold fs-3 ">
-              +40 AÑOS <br />
+              +20 AÑOS <br />
               <small className="fw-semibold fs-6">de trayectoria</small>
             </p>
           </Col>
@@ -42,14 +42,6 @@ const Home = () => {
               MARCAS LÍDERES
               <br />
               <small className="fw-semibold fs-6">confían en nosotros</small>
-            </p>
-          </Col>
-          <Col className="w-full flex flex-col items-center ">
-            <i className="bi bi-geo-alt-fill size-experience-icons" />
-            <p className="fw-bold fs-3 line-h-experience">
-              2 CENTROS
-              <br />
-              <small className="fw-semibold fs-6">de distribución</small>
             </p>
           </Col>
           <Col className="w-full flex flex-col items-center ">

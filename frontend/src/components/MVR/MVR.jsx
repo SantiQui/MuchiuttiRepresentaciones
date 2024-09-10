@@ -5,23 +5,29 @@ const MVR = () => {
   return (
     <>
       <div className="content-mvr w-max">
-        <div >
+        <div>
           <i class="bi bi-bullseye size-home-icons " />
-          <h3 class="text-uppercase cstm-sec-color fw-bold fs-6">Misión</h3>
-          <p>Lograr la mayor distribución numérica y cobertura de calidad.</p>
+          <h3 class="text-uppercase cstm-sec-color fw-bold fs-6">objetivo</h3>
+          <p>
+            Seguir consolidando la empresa en el mercado en busca de fortalecer y expandir nuestra presencia y cobertura
+            en la mayor cantidad de zonas posibles.
+          </p>
         </div>
-        <div >
+        <div>
           <i class="bi bi-eye-fill size-home-icons" />
           <h3 class="text-uppercase cstm-sec-color fw-bold fs-6">Visión</h3>
           <p>
-            Ser una empresa líder en distribución en nuestra zona de influencia, con capacidad de ingresar a nuevos
-            negocios, respetando a nuestros clientes proveedores y empleados.
+            Buscamos expandir nuestra cartera de clientes y representaciones comerciales, brindando un servicio
+            eficiente y adaptado a las condiciones del mercado para aprovechar nuevas oportunidades de negocio.
           </p>
         </div>
-        <div >
+        <div>
           <i class="bi bi-people-fill size-home-icons" />
           <h3 class="text-uppercase cstm-sec-color fw-bold fs-6">Responsabilidad social</h3>
-          <p>Acompañamos a instituciones de nuestra comunidad, apadrinando su funcionamiento y actividades .</p>
+          <p>
+            Nos sustentamos en el profesionalismo, la atención resolutiva, la confianza y la honestidad absoluta que nos
+            han caracterizado a lo largo de estos años, y que continuaremos preservando siempre.
+          </p>
         </div>
       </div>
     </>
