@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/Header/Header";
 
-const Contact = () => {
+const Contact = ({ currentPath }) => {
   return (
-    <div>Contactsd</div>
-  )
-}
+    <div>
+      <Header currentPath={currentPath} />
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

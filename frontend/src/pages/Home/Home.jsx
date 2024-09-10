@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <div className="background-transporte">
-        <div className="desktop-mvr">
+        <div className="desktop-mvr w-full">
           <MVR />
         </div>
       </div>
@@ -21,14 +21,14 @@ const Home = () => {
           distribuidores de grandes marcas, realizamos logística para empresas nacionales y multinacionales con entregas
           en cada punto de venta
         </p>
-        <Button className="my-4" variant="danger">
+        <Button style={{ border: "none" }} className="my-4 bg-color-muchiutti">
           <Link to="/empresa" className="cta-muchiutti fw-bold">
             Conocer más sobre Muchiutti Representaciones <i class="bi bi-caret-right-fill"></i>
           </Link>
         </Button>
       </div>
       <div className="red-transparent-truck flex items-center justify-content-center">
-        <Row className="flex flex-col row-background-red justify-content-center text-center gap-3">
+        <Row className="flex flex-col row-background-red justify-content-center text-center gap-3 w-max">
           <Col className="w-full flex flex-col items-center ">
             <i className="bi bi-hourglass-split size-experience-icons" />
             <p className="fw-bold fs-3 ">

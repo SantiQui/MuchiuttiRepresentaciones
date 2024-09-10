@@ -1,8 +1,8 @@
 .info-navbar {
-  background-color: #ff0000;
   color: #ffffff;
   padding: 5px 0;
   text-align: center;
+  justify-content: center;
   font-weight: bold;
 }
 
@@ -24,10 +24,13 @@
   margin: 0 !important;
 }
 
-@media screen and (min-width: 950px) {
-  .navbar-container {
-    max-width: 90vw !important;
-  }
+.navbar-container .nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+  font-weight: 600 !important;
 }
 
 @media screen and (max-width: 950px) {

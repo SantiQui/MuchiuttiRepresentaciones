@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "../../components/Header/Header";
 
-const Operation = () => {
-  return <div>Operation</div>;
+const Operation = ({ currentPath }) => {
+  return (
+    <div>
+      <Header currentPath={currentPath} />
+    </div>
+  );
 };
 
 export default Operation;
