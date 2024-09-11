@@ -9,7 +9,8 @@
 
 @media screen and (min-width: 1050px) {
   .img-contacto {
-    height: 80vh;
+    height: 65vh;
+    margin-right: 1.2rem;
   }
   .contact-movile {
     display: flex;
