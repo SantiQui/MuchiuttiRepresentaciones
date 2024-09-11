@@ -3,3 +3,15 @@
   height: 100%;
   background-size: cover;
 }
+
+@media screen and (min-width: 1050px) {
+  .coverage-desktop {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .img-cobertura {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+  }
+}
