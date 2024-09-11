@@ -30,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-max w-full pb-5">
+    <div className="pb-5 w-full">
       <Formik
         initialValues={{ fullName: "", reason: "", email: "", phone: "", message: "" }}
         validationSchema={validationSchema}
@@ -38,7 +38,7 @@ const ContactForm = () => {
         className="w-full"
       >
         {({ isSubmitting }) => (
-          <RBForm as={Form} className="contact-form p-2" style={{ backgroundColor: "#eaeaea", borderRadius: "5px" }}>
+          <RBForm as={Form} className="contact-form" style={{ backgroundColor: "#eaeaea", borderRadius: "5px" }}>
             <div className="w-full flex justify-between">
               <RBForm.Group controlId="fullName">
                 <RBForm.Label className="fs-6 ">Nombre y Apellido*</RBForm.Label>
