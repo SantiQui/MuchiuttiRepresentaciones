@@ -1,5 +1,14 @@
-footer{
-    background-color: gray;
-    color:aliceblue;
-    padding: 2rem;
+.somos-text{
+    font-weight: bold;
+}
+@media screen and (min-width: 1032px) {
+    .somos-text{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .historia-text{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    
 }
