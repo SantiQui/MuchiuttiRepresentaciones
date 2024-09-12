@@ -62,7 +62,8 @@
   }
 
   .navbar-social a {
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 16px;
     border: none !important;
   }
   .navbar-nav a {
