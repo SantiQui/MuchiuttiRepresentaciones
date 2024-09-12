@@ -5,7 +5,7 @@ import "./Coverage.css";
 
 const Coverage = ({ currentPath }) => {
   return (
-    <div className="flex jusitfy-center flex-col items-center">
+    <div style={{ backgroundColor: " #f0efeb" }} className="flex jusitfy-center flex-col items-center">
       <Header currentPath={currentPath} />
       <div className="w-max py-5 coverage-desktop">
         <div className="py-4">
