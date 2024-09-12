@@ -49,6 +49,11 @@
   .navbar-social {
     display: flex !important;
     align-items: center;
+    margin-right: 0;
+  }
+  .navbar-social a {
+    margin-left: 1rem;
+    padding: 0 !important;
   }
   .navbar-social a i {
     font-size: 1rem !important;
