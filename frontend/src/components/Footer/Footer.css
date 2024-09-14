@@ -1,0 +1,41 @@
+.footer-style{
+    background-color: gray;
+}
+.footer-title{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.footer-links{
+    color: white;
+    padding-left: 10px;
+
+}
+.footer-logo{
+    padding-bottom: 20px;
+}
+
+.footer-copyright{
+    color: white;
+    align-items: center;
+    font-weight: 600;
+}
+.footer-icons{
+    color: white;
+}
+.hr-style{
+    color: white;
+}
+.footer-img{
+    height: 100px;
+    padding-bottom: 20px;
+}
+@media screen and (min-width: 1031px) {
+    .footer-div{
+        padding-left: 20%;
+        padding-right: 10%;
+    }
+    .footer-img{
+        padding-left: 50%;
+    }
+}
