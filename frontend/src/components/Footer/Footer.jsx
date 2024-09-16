@@ -2,33 +2,34 @@ import React from 'react'
 import "./Footer.css"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 const Footer = () => {
   return (
-    <div className="footer-style p-5 ">
-      <Row className="footer-div ">
-        <Col xs={12} lg={6} className="footer-logo">
-        <a href="/"><img src={logo} alt="Logo" className="footer-img"/></a>
-          
-        </Col>
-        <Col xs={12} lg={6} className="footer-contacto">
-          <h4 className="footer-title">CASA CENTRAL</h4>
-          <p className="footer-items">
-            <i className="bi bi-geo-alt-fill footer-icons"></i>
-            <a href="" className="footer-links">Santa Fe</a>
-          </p>
-          <p className="footer-items">
-            <i className="bi bi-telephone-fill footer-icons"></i>
-            <a href="" className="footer-links">342-6115556</a>
-          </p>
-          <p className="footer-items">
+    <div className="footer-style py-5 w-full flex items-center">
+      <Row className="footer-div w-max flex justify-center">
+        <Col xs={12} lg={6} className="footer-contacto flex items-center footer-div w-full ">
+          <a href="/"><img src={logo} alt="Logo" className="footer-img"/></a>
+          <ul className='company-lista '>
+            <li>
+            <h4 className="footer-title">CASA CENTRAL</h4>
+            </li>
+            <li>
+              <i className="bi bi-geo-alt-fill footer-icons"></i>
+              <a href="" className="footer-links">Santa Fe</a>
+            </li>
+            <li>
+              <i className="bi bi-telephone-fill footer-icons"></i>
+              <a href="" className="footer-links">342-6115556</a>
+            </li>
+            <li>
             <i className="bi bi-telephone-fill footer-icons"></i>
             <a href="" className="footer-links">342-4773703</a>
-          </p>
-          <p className="footer-items">
+            </li>
+            <li>
             <i className="bi bi-envelope footer-icons"></i>
             <a href="" className="footer-links">hmuchiutti_rep@hotmail.com</a>
-          </p>
+            </li>
+          </ul>
         </Col>
       </Row>
       <div>

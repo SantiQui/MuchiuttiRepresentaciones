@@ -1,20 +1,32 @@
 .footer-style{
     background-color: gray;
+    flex-direction: column;
+}
+.footer-div{
+    flex-direction: column;
 }
 .footer-title{
     font-size: 15px;
     font-weight: bold;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-links{
     color: white;
     padding-left: 10px;
+    
 
 }
-.footer-logo{
-    padding-bottom: 20px;
+.company-lista  {
+    list-style: none !important;
 }
-
+.company-lista li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .footer-copyright{
     color: white;
     align-items: center;
@@ -32,10 +44,6 @@
 }
 @media screen and (min-width: 1031px) {
     .footer-div{
-        padding-left: 20%;
-        padding-right: 10%;
-    }
-    .footer-img{
-        padding-left: 50%;
+        flex-direction: row;
     }
 }
