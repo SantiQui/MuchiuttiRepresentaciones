@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Button, Row, Col } from "react-bootstrap";
 import MVR from "../../components/MVR/MVR";
 const Home = () => {
-  
   return (
     <div className="w-full flex flex-col items-center">
       <div className="background-transporte">
@@ -45,9 +44,15 @@ const Home = () => {
               <small className="fw-semibold fs-6">confían en nosotros</small>
             </p>
           </Col>
+          <Col className="w-full flex flex-col items-center ">
+            <i className="bi bi-people-fill size-experience-icons" />
+            <p className="fw-bold fs-3 line-h-experience">
+              CARTERA DE CLIENTES <br />
+              <small className="fw-semibold fs-6">depurada y confiable</small>
+            </p>
+          </Col>
         </Row>
       </div>
-
     </div>
   );
 };

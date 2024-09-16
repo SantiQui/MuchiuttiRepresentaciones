@@ -6,7 +6,7 @@ import logo from "../../assets/logo.webp";
 
 const CustomNavbar = ({ currentPath }) => {
   return (
-    <div className="fixed-top" style={{ backgroundColor: "#f0ead2" }}>
+    <div className="fixed-top" style={{ backgroundColor: "#fff" }}>
       <div className="flex info-navbar bg-color-muchiutti">
         <div className="navbar-container w-full h-full flex justify-between">
           <div style={{ fontSize: "0.8rem" }}>REPRESENTACIONES COMERCIALES</div>
