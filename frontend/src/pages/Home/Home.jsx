@@ -3,8 +3,8 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { Button, Row, Col } from "react-bootstrap";
 import MVR from "../../components/MVR/MVR";
-
 const Home = () => {
+  
   return (
     <div className="w-full flex flex-col items-center">
       <div className="background-transporte">
@@ -17,7 +17,7 @@ const Home = () => {
         <MVR />
       </div>
       <div className="w-max flex flex-col items-center py-5">
-        <p class="text-center">
+        <p class="text-center  w-max w-66">
           Desde hace más de 40 años, somos una empresa familiar dedicada a la representación y distribución de productos
           de consumo masivo en Santa Fe y Entre Ríos. Combinamos atención personalizada con herramientas digitales,
           representando marcas líderes y brindando soluciones estratégicas a mayoristas, distribuidores y supermercados.
@@ -55,7 +55,7 @@ const Home = () => {
           </Col>
         </Row>
       </div>
-      <h1>SLIDER SANTI</h1>
+
     </div>
   );
 };

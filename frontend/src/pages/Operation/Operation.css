@@ -1,0 +1,38 @@
+.operation-container-1, .operation-container-2{
+    padding-top: 40px;
+    flex-direction: column;
+}
+.operation-container-icons{
+    flex-direction: column;
+}
+.operation-icon{
+    font-size: 50px;
+}
+.operation-title{
+    font-size: 40px;
+    font-weight: bold;
+    height: 100px;
+}
+.operation-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.operation-number{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    .operation-container-1{
+        flex-direction: row;
+    }
+    .operation-container-2{
+        flex-direction: row-reverse;
+    }
+    .operation-img{
+        width: 50%;
+    }
+}

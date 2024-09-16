@@ -1,36 +1,48 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { Form as RBForm, Button, Col, Row } from "react-bootstrap";
-// import emailjs from "emailjs-com";
+import { Form as RBForm, Button } from "react-bootstrap";
 import "./ContactForm.css";
 
 const ContactForm = () => {
   const validationSchema = Yup.object({
-    fullName: Yup.string().required("Este campo es obligatorio"),
+    fullName: Yup.string()
+      .matches(/^[a-zA-Z\s]+$/, "El nombre solo debe contener letras y espacios")
+      .required("Este campo es obligatorio"),
     reason: Yup.string().required("Por favor, selecciona un motivo"),
     email: Yup.string().email("Email inválido").required("Este campo es obligatorio"),
-    phone: Yup.string().required("Este campo es obligatorio"),
-    message: Yup.string().required("Este campo es obligatorio"),
+    phone: Yup.string()
+      .matches(/^\d{1,12}$/, "El teléfono debe contener solo números y no más de 12 caracteres")
+      .required("Este campo es obligatorio"),
+    message: Yup.string()
+      .max(500, "El mensaje no debe sobrepasar los 500 caracteres")
+      .required("Este campo es obligatorio"),
   });
 
   const handleSubmit = (values, { resetForm, setSubmitting }) => {
-    emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", values, "YOUR_USER_ID")
-      .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
-        resetForm();
-        alert("Mensaje enviado exitosamente");
-      })
-      .catch((error) => {
-        console.error("FAILED...", error);
-        alert("Hubo un error, por favor intenta de nuevo.");
-      })
-      .finally(() => setSubmitting(false));
+    // Simular el envío con emailjs
+    console.log("Enviando mensaje...", values);
+    // emailjs
+    //   .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", values, "YOUR_USER_ID")
+    //   .then((response) => {
+    //     console.log("SUCCESS!", response.status, response.text);
+    //     resetForm();
+    //     alert("Mensaje enviado exitosamente");
+    //   })
+    //   .catch((error) => {
+    //     console.error("FAILED...", error);
+    //     alert("Hubo un error, por favor intenta de nuevo.");
+    //   })
+    //   .finally(() => setSubmitting(false));
+    setTimeout(() => {
+      resetForm();
+      alert("Mensaje enviado exitosamente");
+      setSubmitting(false);
+    }, 1000);
   };
 
   return (
-    <div className="w-max w-full pb-5">
+    <div className="pb-5 w-full">
       <Formik
         initialValues={{ fullName: "", reason: "", email: "", phone: "", message: "" }}
         validationSchema={validationSchema}
@@ -38,10 +50,10 @@ const ContactForm = () => {
         className="w-full"
       >
         {({ isSubmitting }) => (
-          <RBForm as={Form} className="contact-form p-2" style={{ backgroundColor: "#eaeaea", borderRadius: "5px" }}>
+          <RBForm as={Form} className="contact-form" style={{ backgroundColor: "#eaeaea", borderRadius: "5px" }}>
             <div className="w-full flex justify-between">
               <RBForm.Group controlId="fullName">
-                <RBForm.Label className="fs-6 ">Nombre y Apellido*</RBForm.Label>
+                <RBForm.Label className="fs-6">Nombre y Apellido*</RBForm.Label>
                 <Field name="fullName" type="text" placeholder="Nombre y Apellido" className="form-control" />
                 <ErrorMessage name="fullName" component="div" className="text-danger" />
               </RBForm.Group>

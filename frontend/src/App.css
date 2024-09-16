@@ -46,7 +46,7 @@
 }
 
 .flex {
-  display: flex;
+  display: flex !important;
 }
 
 .flex-col {
@@ -62,7 +62,7 @@
 }
 
 .justify-center {
-  justify-content: center !;
+  justify-content: center;
 }
 
 .justify-evenly {
@@ -111,6 +111,10 @@
   color: #faedcd !important;
 }
 
+.custom-justify {
+  justify-content: start !important;
+}
+
 .bg-color-muchiutti {
   background-color: #ccd5ae !important;
   color: #000 !important;
@@ -122,6 +126,9 @@
   }
   .w-max {
     max-width: 90vw !important;
+  }
+  .custom-justify {
+    justify-content: center;
   }
 }
 

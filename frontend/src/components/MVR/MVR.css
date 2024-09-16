@@ -6,7 +6,7 @@
 .desktop-mvr {
   display: none;
   position: relative;
-  top: 58%;
+  top: 53%;
 }
 
 .content-mvr {
@@ -20,7 +20,7 @@
 .movile-mvr {
   display: flex;
   justify-content: center;
-  background-color: #fbfbfb;
+  background-color: #f0efeb;
 }
 
 .movile-mvr .content-mvr div h3 {
@@ -52,7 +52,7 @@
   }
   .content-mvr h3 {
     color: white;
-    font-size: 20px !important;
+    /* font-size: 20px !important; */
   }
   .content-mvr div p {
     display: none;
