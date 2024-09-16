@@ -6,19 +6,19 @@ import logo from "../../assets/logo.webp";
 
 const CustomNavbar = ({ currentPath }) => {
   return (
-    <div className="fixed-top" style={{ backgroundColor: "#FEFAE0" }}>
+    <div className="fixed-top" style={{ backgroundColor: "#f0ead2" }}>
       <div className="flex info-navbar bg-color-muchiutti">
         <div className="navbar-container w-full h-full flex justify-between">
           <div style={{ fontSize: "0.8rem" }}>REPRESENTACIONES COMERCIALES</div>
           <div style={{ fontSize: "0.8rem" }} className=" ds-none">
-            Líneas rotativas 0342 1234 4567 info@muchhiutti.com.ar
+            Líneas rotativas 0342 1234 4567
           </div>
         </div>
       </div>
-      <Navbar expand="lg" className="shadow-sm h-full p-0">
+      <Navbar style={{ height: "100px" }} expand="lg" className="shadow-sm p-0">
         <Container className="w-max h-full p-0">
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" style={{ height: "55px", padding: "0.5rem 0" }} />
+            <img src={logo} alt="Logo" style={{ height: "100px", padding: "0.5rem 0" }} />
           </Navbar.Brand>
 
           <Navbar.Toggle className="navbar-toogle" aria-controls="offcanvasNavbar" />
@@ -40,10 +40,10 @@ const CustomNavbar = ({ currentPath }) => {
                     key={page.name}
                     href={page.path}
                     style={{
-                      height: "65px",
+                      height: "100px",
                       fontSize: ".8em",
                       color: currentPath === page.path ? "#000" : "#666666",
-                      backgroundColor: currentPath === page.path ? "#ccd5ae " : "",
+                      backgroundColor: currentPath === page.path ? "#dde5b6" : "",
                       fontWeight: currentPath === page.path ? "bold" : "normal",
                     }}
                   >

@@ -6,7 +6,7 @@
 .desktop-mvr {
   display: none;
   position: relative;
-  top: 53%;
+  top: 48%
 }
 
 .content-mvr {
@@ -37,7 +37,7 @@
   }
   .content-mvr {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: start;
   }
   .content-mvr div {
