@@ -17,12 +17,12 @@ const MVR = () => {
       description:
         "Seguir consolidando la empresa en el mercado en busca de fortalecer y expandir nuestra presencia y cobertura en la mayor cantidad de zonas posibles.",
     },
-    {
-      iconClass: "bi bi-eye-fill",
-      title: "Visión",
-      description:
-        "Buscamos expandir nuestra cartera de clientes y representaciones comerciales, brindando un servicio eficiente y adaptado a las condiciones del mercado para aprovechar nuevas oportunidades de negocio.",
-    },
+    // {
+    //   iconClass: "bi bi-eye-fill",
+    //   title: "Visión",
+    //   description:
+    //     "Buscamos expandir nuestra cartera de clientes y representaciones comerciales, brindando un servicio eficiente y adaptado a las condiciones del mercado para aprovechar nuevas oportunidades de negocio.",
+    // },
     {
       iconClass: "bi bi-people-fill",
       title: "Responsabilidad social",
