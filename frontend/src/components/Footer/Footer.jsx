@@ -19,15 +19,15 @@ const Footer = () => {
             </li>
             <li>
               <i className="bi bi-telephone-fill footer-icons"></i>
-              <a href="" className="footer-links">342-6115556</a>
+              <a href="https://api.whatsapp.com/send?phone=5493426115556" className="footer-links">342-6115556</a>
             </li>
             <li>
             <i className="bi bi-telephone-fill footer-icons"></i>
-            <a href="" className="footer-links">342-4773703</a>
+            <a href="https://api.whatsapp.com/send?phone=5493424773703" className="footer-links">342-4773703</a>
             </li>
             <li>
             <i className="bi bi-envelope footer-icons"></i>
-            <a href="" className="footer-links">hmuchiutti_rep@hotmail.com</a>
+            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links">muchiuttirepresentaciones@gmail.com</a>
             </li>
           </ul>
         </Col>
