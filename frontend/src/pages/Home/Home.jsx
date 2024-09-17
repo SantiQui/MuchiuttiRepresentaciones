@@ -19,7 +19,7 @@ const Home = () => {
         <p class="text-center  w-max w-66">
           Desde hace más de 30 años, somos una empresa familiar dedicada a la representación de productos de consumo
           masivo en Santa Fe y Entre Ríos. Combinamos atención personalizada con herramientas digitales, representando
-          excelentes marcas y brindando soluciones estratégicas a mayoristas, distribuidores y supermercados.
+          excelentes empresas y brindando soluciones estratégicas a mayoristas, distribuidores y supermercados.
         </p>
         <Button style={{ border: "none" }} className="my-4 bg-color-muchiutti">
           <Link to="/empresa" className="cta-muchiutti fw-bold">
@@ -39,7 +39,7 @@ const Home = () => {
           <Col className="w-full flex flex-col items-center ">
             <i className="bi bi-briefcase-fill size-experience-icons" />
             <p className="fw-bold fs-3 line-h-experience">
-              EXCELENTES MARCAS
+              IMPORTANTES EMPRESAS
               <br />
               <small className="fw-semibold fs-6">confían en nosotros</small>
             </p>

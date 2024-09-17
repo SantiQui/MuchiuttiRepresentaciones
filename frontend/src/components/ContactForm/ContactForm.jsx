@@ -2,6 +2,7 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { Form as RBForm, Button } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 import "./ContactForm.css";
 
 const ContactForm = () => {
@@ -20,26 +21,34 @@ const ContactForm = () => {
   });
 
   const handleSubmit = (values, { resetForm, setSubmitting }) => {
-    // Simular el envío con emailjs
-    console.log("Enviando mensaje...", values);
-    // emailjs
-    //   .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", values, "YOUR_USER_ID")
-    //   .then((response) => {
-    //     console.log("SUCCESS!", response.status, response.text);
-    //     resetForm();
-    //     alert("Mensaje enviado exitosamente");
-    //   })
-    //   .catch((error) => {
-    //     console.error("FAILED...", error);
-    //     alert("Hubo un error, por favor intenta de nuevo.");
-    //   })
-    //   .finally(() => setSubmitting(false));
-    setTimeout(() => {
-      resetForm();
-      alert("Mensaje enviado exitosamente");
-      setSubmitting(false);
-    }, 1000);
+    emailjs
+      .send("service_cpzweqn", "template_y9ql4bl", values, "UUeH-7dFWC_0DwtZK")
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        resetForm();
+        alert("Mensaje enviado exitosamente");
+      })
+      .catch((error) => {
+        console.error("FAILED...", error);
+        alert("Hubo un error, por favor intenta de nuevo.");
+      })
+      .finally(() => setSubmitting(false));
   };
+
+  // const handleSubmit = (values, { resetForm, setSubmitting }) => {
+  //   emailjs
+  //     .send(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, values, import.meta.env.VITE_USER_ID)
+  //     .then((response) => {
+  //       console.log("SUCCESS!", response.status, response.text);
+  //       resetForm();
+  //       alert("Mensaje enviado exitosamente");
+  //     })
+  //     .catch((error) => {
+  //       console.error("FAILED...", error);
+  //       alert("Hubo un error, por favor intenta de nuevo.");
+  //     })
+  //     .finally(() => setSubmitting(false));
+  // };
 
   return (
     <div className="pb-5 w-full">
