@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container, Offcanvas } from "react-bootstrap";
 import { pages } from "../../utils/navbarlinks";
 import "./NavBar.css";
-import logo from "../../assets/logo.webp";
+import logo from "../../assets/logo.png";
 
 const CustomNavbar = ({ currentPath }) => {
   return (
