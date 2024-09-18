@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 const Footer = () => {
   return (
     <div className="footer-style py-5 w-full flex items-center">
