@@ -11,7 +11,9 @@ const CustomNavbar = ({ currentPath }) => {
         <div className="navbar-container w-full h-full flex justify-between">
           <div style={{ fontSize: "0.8rem" }}>REPRESENTACIONES COMERCIALES</div>
           <div style={{ fontSize: "0.8rem" }} className=" ds-none">
-            Líneas rotativas 0342 1234 4567
+            <a style={{ textDecoration: "none", color: "#000" }} href="mailto:muchiuttirepresentaciones@gmail.com">
+              muchiuttirepresentaciones@gmail.com
+            </a>
           </div>
         </div>
       </div>

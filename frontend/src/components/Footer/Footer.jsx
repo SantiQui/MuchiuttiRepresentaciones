@@ -1,21 +1,25 @@
-import React from 'react'
-import "./Footer.css"
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from "react";
+import "./Footer.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import logo from "../../assets/logo.webp";
 const Footer = () => {
   return (
     <div className="footer-style py-5 w-full flex items-center">
       <Row className="footer-div w-max flex justify-center">
         <Col xs={12} lg={6} className="footer-contacto flex items-center footer-div w-full ">
-          <a href="/"><img src={logo} alt="Logo" className="footer-img"/></a>
-          <ul className='company-lista '>
+          <a href="/">
+            <img src={logo} alt="Logo" className="footer-img" />
+          </a>
+          <ul className="company-lista ">
             <li>
-            <h4 className="footer-title">CASA CENTRAL</h4>
+              <h4 className="footer-title">CASA CENTRAL</h4>
             </li>
             <li>
               <i className="bi bi-geo-alt-fill footer-icons"></i>
-              <a href="" className="footer-links">Santa Fe</a>
+              <a href="" className="footer-links">
+                Santa Fe
+              </a>
             </li>
             <li>
               <i className="bi bi-telephone-fill footer-icons"></i>
@@ -37,9 +41,9 @@ const Footer = () => {
         <p className="footer-copyright text-center">
           Copyright 2024 © Muchiutti Representaciones S.A. | Todos los derechos reservados
         </p>
-      </div>   
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
