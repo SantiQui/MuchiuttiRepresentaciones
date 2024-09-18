@@ -2,36 +2,7 @@
     gap: 1rem ;
     flex-wrap: wrap;
 }
-.catalog-card{
-    width: 18rem;
-    border-style: none;
-}
-.card-body{
-    background-color: gray;
-}
-.card-text{
-    font-size: 15px;
-    font-weight: 600;
-    color: white;
-    margin-top: auto;
-    background-color: gray;
-}
 
-.catalog-card:hover{
-    transform: translateY(-15px);
-    transition: 0.5s;
-}
-
-
-@media screen and (min-width: 400px) and (max-width: 700px) {
-    .catalog-card{
-        width: 12rem;
-    }
-    .card-text{
-        font-size: 12px;
-    }
-    
-}
 @media screen and (min-width: 1050px) {
     .catalog-container{
         gap: 3rem;

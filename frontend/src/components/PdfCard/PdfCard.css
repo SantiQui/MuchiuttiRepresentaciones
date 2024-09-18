@@ -1,0 +1,30 @@
+.catalog-card{
+    width: 18rem;
+    
+}
+.card-text{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: auto;
+    background-color: gray;
+}
+
+.card-link{
+    color: black;
+    text-decoration: none;
+}
+.catalog-card:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .catalog-card{
+        width: 12rem;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    
+}
