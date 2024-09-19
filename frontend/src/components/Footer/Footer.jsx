@@ -39,7 +39,7 @@ const Footer = () => {
       <div>
         <hr className="hr-style" />
         <p className="footer-copyright text-center">
-          Copyright 2024 © Muchiutti Representaciones S.A. | Todos los derechos reservados
+          Copyright 2024 © Muchiutti Representaciones | Todos los derechos reservados
         </p>
       </div>
     </div>
