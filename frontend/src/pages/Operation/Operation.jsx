@@ -6,13 +6,12 @@ import operatoriaFoto2 from "../../assets/operation2.jpg"
 
 const Operation = ({ currentPath }) => {
   return (
-    <div>
+    <div className="w-full">
       <Header currentPath={currentPath} />
-      <div className="flex w-full operation-container-1">
-        <div className="p-5" style={{width: "50%"}}>
+      <div className="flex operation-container-1 ">
+        <div className="flex flex-col w-max p-3">
           <h2 className="operation-title">Administración y deposito.</h2>
-          
-          <p>
+          <p >
           En la ciudad de Santa Fe, contamos con 5000 m2 de depósito 
           equipado con un sistema de almacenamiento en racks y autoelevadores, 
           1000 m2 de playa de descarga de camiones y 400 m2 de oficinas administrativas.
@@ -38,7 +37,7 @@ const Operation = ({ currentPath }) => {
         <img src={operatoriaFoto1} alt="" className="operation-img"/>
       </div>
       <div className="flex w-full operation-container-2">
-        <div className="p-5" style={{width: "50%"}}>
+        <div className="p-3">
           <h3 className="operation-subtitle">Logística</h3>
           <p>Su empresa podrá tener un Centro de Distribución Virtual (CDV) con almacenamiento de mercaderías en racks y autoelevadores, 
             sin costo fijo, para entrega Boca por Boca, Hipermercados Nacionales, Supermercados Regionales, 

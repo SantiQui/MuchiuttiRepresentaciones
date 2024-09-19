@@ -1,5 +1,7 @@
-.operation-container-1, .operation-container-2{
-    padding-top: 40px;
+.operation-container-1{
+    flex-direction: column;
+}
+.operation-container-2{
     flex-direction: column;
 }
 .operation-container-icons{
