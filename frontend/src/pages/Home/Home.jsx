@@ -17,9 +17,9 @@ const Home = () => {
       </div>
       <div className="w-max flex flex-col items-center py-5">
         <p class="text-center  w-max w-66">
-          Desde hace más de 30 años, somos una empresa familiar dedicada a la representación de productos de consumo
+          Desde hace más de 30 años, somos una empresa familiar dedicada a la representación comercial de productos de consumo
           masivo en Santa Fe y Entre Ríos. Combinamos atención personalizada con herramientas digitales, representando
-          excelentes empresas y brindando soluciones estratégicas a mayoristas, distribuidores y supermercados.
+          excelentes empresas y brindando soluciones estratégicas a clientes mayoristas, distribuidores y supermercados.
         </p>
         <Button style={{ border: "none" }} className="my-4 bg-color-muchiutti">
           <Link to="/empresa" className="cta-muchiutti fw-bold">
