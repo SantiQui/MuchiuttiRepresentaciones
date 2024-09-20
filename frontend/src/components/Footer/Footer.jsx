@@ -17,7 +17,7 @@ const Footer = () => {
             </li>
             <li>
               <i className="bi bi-geo-alt-fill footer-icons"></i>
-              <a href="" className="footer-links">
+              <a href="" className="footer-links footer-direccion">
                 Santa Fe
               </a>
             </li>
@@ -36,10 +36,10 @@ const Footer = () => {
           </ul>
         </Col>
       </Row>
-      <div>
+      <div className="w-full">
         <hr className="hr-style" />
-        <p className="footer-copyright text-center">
-          Copyright 2024 © Muchiutti Representaciones | Todos los derechos reservados
+        <p className="footer-copyright text-center py-3" style={{fontSize: "80%"}}>
+          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados
         </p>
       </div>
     </div>

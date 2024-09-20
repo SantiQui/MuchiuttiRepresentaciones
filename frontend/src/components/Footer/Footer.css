@@ -19,6 +19,10 @@
     
 
 }
+.footer-direccion{
+    text-decoration: none;
+    cursor: none;
+}
 .company-lista  {
     list-style: none !important;
 }

@@ -12,38 +12,48 @@ const Company = ({ currentPath }) => {
       <Header currentPath={currentPath} />
       <div className="bg-color-muchiutti py-5 flex justify-center w-full">
         <p className="company-somos w-max flex text-center ">
-          Somos representantes y distribuidores de productos de consumo masivo. Trabajamos con todos los segmentos del
-          mercado: mayoristas y minoristas. Prestamos servicios de logística a empresas nacionales y multinacionales con
-          entregas en punto de venta.
+        Somos responsables de representar a importantes empresas ofreciendo productos de 
+        consumo masivo. Brindamos un servicio de atención y asesoramiento personalizado 
+        para la concreción de negocios a clientes especiales como mayoristas, distribuidores y supermercados.
         </p>
       </div>
 
       <div className="company-container flex items-center ">
         <div className="flex w-max flex-col">
           <div className="flex py-5 flex-col company-historia ">
-            <h2 className=" w-full ">Nuestra historia</h2>
+            <h1 className="fw-bold">Nuestra historia</h1>
             <p className=" w-full ">
-              ALCO nace en 1979, como una empresa familiar, con el objetivo de representar y distribuir productos de
-              consumo masivo. Desde ese momento, comenzamos a ofrecer al mercado un servicio integral como
-              representantes, con depósito de mercadería, facturación y entrega desde el mismo local.
+            Esta empresa familiar comienza con la actividad personal de Horacio Muchiutti 
+            dada su experiencia anterior como representante comercial en compañías nacionales 
+            como por ejemplo: Bagley S.A, Terrabusi S.A, Vazquez y Cia, entre otras. 
+            Siendo viajante directo de las mismas y ofreciendo productos de consumo masivo al mercado. 
             </p>
             <p className=" w-full ">
-              Desde 2009 expandimos nuestra actividad a la ciudad de Rosario, con la apertura de una sucursal operando
-              independientemente de la casa central.
+            A partir del año 1988 comienzo con este sistema de representaciones, cubriendo zonas
+            de centro-norte de la Provincia de Santa Fe y toda la provincia de Entre Ríos, desarrollando 
+            siempre el mismo sistema de venta directa de fábrica a clientes especiales como mayoristas,
+            distribuidores y supermercados. Brindándoles un servicio de atención y asesoramiento 
+            personalizado para la concreción de negocios, adaptándonos en este recorrido a las nuevas tecnologías 
+            de comunicación combinando la presencia personal junto con la digital. 
             </p>
             <p className=" w-full">
-              A través de los años no sólo nos dedicamos a vender marcas lideres; también logramos que las empresas
-              tengan una sucursal virtual al menor costo posible.
+            Continuando con ésta dinámica, seguimos hasta el día de hoy agregando y renovando todo 
+            tipo de representadas de excelentes compañías dentro de las líneas comestibles, bebidas y 
+            bazar principalmente. Ofreciendo el mejor sistema de crecimiento para cualquier empresa. 
             </p>
             <p className=" w-full ">
-              Sabemos que ofrecemos el mejor sistema de crecimiento para cualquier empresa: contamos con una
-              infraestructura acorde y en constante crecimiento, y brindamos el mejor servicio de venta y logística en
-              la región.
+            En los últimos años, para garantizar una atención más integral a nuestros clientes incorporamos más personal 
+            a éste gran equipo de trabajo y asesoramiento contable-legal, respaldado con estudios acordes y 
+            reconocidos en busca de continuar mejorando nuestros servicios.
             </p>
             <p className=" w-full">
-              Nos adaptamos en forma inmediata a las demandas del mercado y a las necesidades de cada firma, asegurando
-              el mayor crecimiento posible en cada segmento. Es por eso, que las mejores compañías nacionales e
-              internacionales nos eligen.
+            Poseemos una cartera de clientes depurada y seleccionada de la cual contamos con las mejores referencias, 
+            consolidada a lo largo de más de 30 años. 
+            </p>
+            <p className=" w-full">
+            Actualmente trabajamos con más de 10 representadas directas que están distribuidas en zonas acordadas 
+            de forma estratégica. Con la posibilidad de agregar empresas y zonas aledañas de acuerdo a lo 
+            solicitado u ofrecido.
             </p>
           </div>
         </div>

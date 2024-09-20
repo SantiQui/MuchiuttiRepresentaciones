@@ -1,17 +1,18 @@
 .catalog-card{
-    width: 18rem;
+    width: 18rem;   
+    border: none;
     
 }
 .card-text{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: auto;
-    background-color: gray;
 }
-
-.card-link{
-    color: black;
-    text-decoration: none;
+.card-img{
+    height: 10rem;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15px;
 }
 .catalog-card:hover{
     transform: translateY(-15px);
