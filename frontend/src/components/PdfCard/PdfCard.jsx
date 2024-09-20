@@ -5,11 +5,12 @@ import "./PdfCard.css"
 const PdfCard = ({ imageUrl}) => {
   return (
     <Card className="catalog-card">
-      <Card.Img variant="top" src={imageUrl} />
-      <Card.Footer className="card-text">
-        <a href="" className='card-link'><i class="bi bi-file-earmark-pdf">DESCARGAR PDF</i></a>
-        
+      <Card.Img  className="card-img"src={imageUrl} />
+      <a href="" className='text-center' style={{backgroundColor:"gray", textDecoration: "none", color: "white"}}>
+      <Card.Footer className="card-text" >
+        <i class="bi bi-file-earmark-pdf px-1"/>DESCARGAR PDF
       </Card.Footer>
+      </a>
     </Card>
   );
 };
