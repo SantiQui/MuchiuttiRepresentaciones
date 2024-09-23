@@ -2,7 +2,7 @@ import React from "react";
 import "./MVR.css";
 
 const Section = ({ iconClass, title, description }) => (
-  <div>
+  <div className="w-full">
     <i className={`${iconClass} size-home-icons`} />
     <h3 className="text-uppercase cstm-sec-color fw-bold fs-6">{title}</h3>
     <p style={{ fontSize: "0.9rem" }}>{description}</p>
@@ -15,19 +15,19 @@ const MVR = () => {
       iconClass: "bi bi-bullseye",
       title: "Objetivo",
       description:
-        "Seguir consolidando la empresa en el mercado en busca de fortalecer y expandir nuestra presencia y cobertura en la mayor cantidad de zonas posibles.",
+        "Seguir afianzando la empresa en el mercado en busca de fortalecer y expandir nuestra presencia y cobertura.",
     },
-    // {
-    //   iconClass: "bi bi-eye-fill",
-    //   title: "Visión",
-    //   description:
-    //     "Buscamos expandir nuestra cartera de clientes y representaciones comerciales, brindando un servicio eficiente y adaptado a las condiciones del mercado para aprovechar nuevas oportunidades de negocio.",
-    // },
     {
-      iconClass: "bi bi-people-fill",
+      iconClass: "bi bi-eye-fill",
+      title: "Visión",
+      description:
+        "Consolidarse como empresa lider en representaciones comerciales, aumentando el numero de marcas ofrecidas ampliando nuestra capacidad operativa.",
+    },
+    {
+      iconClass: "bi bi-award",
       title: "Responsabilidad social",
       description:
-        "Nos sustentamos en el profesionalismo, la atención resolutiva, la confianza y la honestidad absoluta que nos han caracterizado a lo largo de estos años, y que continuaremos preservando siempre.",
+        "Nos sustentamos en el profesionalismo, la atención resolutiva, la confianza y la honestidad absoluta que nos han caracterizado a lo largo de estos años.",
     },
   ];
 
