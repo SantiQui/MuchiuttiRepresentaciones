@@ -1,5 +1,5 @@
 export const pages = [
-    { name: "Home", path: "/" },
+    { name: "Inicio", path: "/" },
     { name: "Empresa", path: "/empresa" },
     { name: "Operatoria", path: "/operatoria" },
     { name: "Catálogos", path: "/catalogos" },

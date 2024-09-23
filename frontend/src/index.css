@@ -22,7 +22,7 @@ body {
   scroll-margin-top: 15ex;
 }
 
-@media screen and (max-width: 1050px) {
+/* @media screen and (max-width: 1050px) {
   #mvr {
     scroll-margin-top: 0ex;
   }
@@ -44,7 +44,7 @@ body {
   #mvr {
     scroll-margin-top: 0ex;
   }
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
