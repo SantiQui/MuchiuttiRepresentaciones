@@ -29,18 +29,18 @@
 
 @media screen and (min-width: 1050px) {
   .movile-mvr {
-    display: none;
+    /* display: none; */
   }
   .desktop-mvr {
     display: flex;
     justify-content: center;
   }
-  .content-mvr {
+  /* .content-mvr {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: start;
-  }
-  .content-mvr div {
+  } */
+  /* .content-mvr div {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -49,27 +49,27 @@
     color: white;
     background-color: #00000096;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  .content-mvr h3 {
+  } */
+  /* .content-mvr h3 {
     color: white;
-    /* font-size: 20px !important; */
-  }
-  .content-mvr div p {
+ 
+  } */
+  /* .content-mvr div p {
     display: none;
-  }
-  .content-mvr div i {
+  } */
+  /* .content-mvr div i {
     color: white;
-  }
-  .content-mvr div:hover {
+  } */
+  /* .content-mvr div:hover {
     cursor: pointer;
     height: fit-content;
     background-color: #555454cb;
-  }
+  } */
 
-  .content-mvr div:hover p {
+  /* .content-mvr div:hover p {
     display: block;
     opacity: 1;
-  }
+  } */
 }
 
 @media screen and (max-width: 1050px) {

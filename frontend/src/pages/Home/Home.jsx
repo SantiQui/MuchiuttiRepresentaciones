@@ -4,22 +4,41 @@ import { Link } from "react-router-dom";
 import { Button, Row, Col } from "react-bootstrap";
 import MVR from "../../components/MVR/MVR";
 const Home = () => {
+  const handleScroll = () => {
+    const section = document.getElementById("mvr");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="w-full flex flex-col items-center">
       <div className="background-transporte">
         <h2 className="background-slogan">Tu aliado en la ruta hacia el crecimiento</h2>
-        <div className="desktop-mvr w-full">
+        {/* viejo diseño */}
+        {/* <div className="desktop-mvr w-full">
           <MVR />
-        </div>
+        </div> */}
+        <button className="arrow-button p-0 m-0" onClick={handleScroll}>
+          <i className="bi bi-caret-down-fill" />
+        </button>
       </div>
-      <div className="w-full position-relative movile-mvr items-center">
+
+      {/* este es el viejo */}
+      {/* <div className="w-full position-relative movile-mvr items-center">
+        <MVR />
+      </div>    */}
+      {/* NUEVO!!! */}
+      <div id="mvr" className="w-full position-relative movile-mvr items-center">
         <MVR />
       </div>
+
       <div className="w-max flex flex-col items-center py-5">
         <p class="text-center  w-max w-66">
-          Desde hace más de 30 años, somos una empresa familiar dedicada a la representación comercial de productos de consumo
-          masivo en Santa Fe y Entre Ríos. Combinamos atención personalizada con herramientas digitales, representando
-          excelentes empresas y brindando soluciones estratégicas a clientes mayoristas, distribuidores y supermercados.
+          Desde hace más de 30 años, somos una empresa familiar dedicada a la representación comercial de productos de
+          consumo masivo en Santa Fe y Entre Ríos. Combinamos atención personalizada con herramientas digitales,
+          representando excelentes empresas y brindando soluciones estratégicas a clientes mayoristas, distribuidores y
+          supermercados.
         </p>
         <Button style={{ border: "none" }} className="my-4 bg-color-muchiutti">
           <Link to="/empresa" className="cta-muchiutti fw-bold">

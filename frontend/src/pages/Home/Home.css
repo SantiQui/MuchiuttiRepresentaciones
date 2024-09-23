@@ -1,5 +1,6 @@
 .background-transporte {
   background-image: url("../../assets/camion-home.webp");
+  position: relative;
   height: 100vh;
   width: 100%;
   margin-top: 20px;
@@ -12,6 +13,36 @@
 .background-transporte:hover {
   transform: scale(1.05);
 }
+
+.arrow-button {
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent !important;
+  border: none !important;
+  position: absolute;
+  bottom:5%;
+  right: 50%;
+  transform: translateX(50%);
+  animation: bounce 2.5s infinite ease-in-out; /* Animación continua */
+}
+
+.arrow-button i {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Animación de rebote estilo yoyo */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /* Estado inicial y final (sin movimiento) */
+  }
+  50% {
+    transform: translateY(-15px); /* Sube 20px en el medio del ciclo */
+  }
+}
+
 
 .background-slogan {
   position: relative;

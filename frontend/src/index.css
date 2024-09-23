@@ -18,6 +18,34 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+#mvr {
+  scroll-margin-top: 15ex;
+}
+
+@media screen and (max-width: 1050px) {
+  #mvr {
+    scroll-margin-top: 0ex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #mvr {
+    scroll-margin-top: -5ex;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #mvr {
+    scroll-margin-top: -3ex;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #mvr {
+    scroll-margin-top: 0ex;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
