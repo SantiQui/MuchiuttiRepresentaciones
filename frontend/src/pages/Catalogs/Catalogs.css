@@ -3,9 +3,21 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 1050px) {
-    .catalog-container{
-        gap: 3rem;
+.catalog-card {
+    flex: 1 1 calc(33.33% - 1rem); /* 3 tarjetas por fila (100% / 3) */
+    max-width: 18rem; /* Limitar el tamaño máximo */
+  }
+  
+
+  @media screen and (max-width: 900px) {
+    .catalog-card {
+      flex: 1 1 calc(50% - 1rem);
     }
-    
-}
+  }
+  
+  /* A partir de 400px: 1 tarjeta por fila */
+  @media screen and (max-width: 623px) {
+    .catalog-card {
+      flex: 1 1 100%;
+    }
+  }

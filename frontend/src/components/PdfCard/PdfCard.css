@@ -1,5 +1,6 @@
 .catalog-card{
-    width: 18rem;   
+    width: 100%;
+    max-width: 18rem;   
     border: none;
     
 }
@@ -17,15 +18,4 @@
 .catalog-card:hover{
     transform: translateY(-15px);
     transition: 0.5s;
-}
-
-
-@media screen and (min-width: 400px) and (max-width: 700px) {
-    .catalog-card{
-        width: 12rem;
-    }
-    .card-text{
-        font-size: 12px;
-    }
-    
 }
