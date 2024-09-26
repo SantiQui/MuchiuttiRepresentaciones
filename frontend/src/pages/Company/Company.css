@@ -1,26 +1,33 @@
-.company-somos{
-    font-weight: bold;
+.company-somos {
+  font-weight: bold;
 }
-.company-foto{
-    width: 100vw !important;
-    background-size:cover;
-    background-position: center;
+.company-foto {
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
 }
-.company-container{
-    flex-direction: column;
+.company-container {
+  flex-direction: column;
+  /* height: fit-content; */
+  /* height: 10; */
 }
 
-@media screen and (min-width:1050px) {
-    .company-container{
-        flex-direction: row-reverse;
-    }
-    .company-foto{
-        width: 50vw;
-    }
-    .company-historia{
-        margin: 0 1rem ;
-        width: 65%;
-        display: grid !important;
-        gap: 0.35rem;
-    }
+@media screen and (min-width: 1050px) {
+  .company-container {
+    flex-direction: row-reverse;
+    height: 115vh;
+  }
+  .company-foto {
+    width: 45vw;
+    height: 100%;
+    background-size: contain;
+    object-fit: cover;
+  }
+  .company-historia {
+    height: 100%;
+    margin-left:3rem;
+    width: 65%;
+    display: grid !important;
+    gap: 0.30rem;
+  }
 }

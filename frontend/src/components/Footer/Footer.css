@@ -1,6 +1,8 @@
 .footer-style{
+    position: relative;
     background-color: gray;
     flex-direction: column;
+    z-index: 9 !important;
 }
 .footer-div{
     flex-direction: column;

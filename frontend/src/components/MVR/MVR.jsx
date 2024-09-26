@@ -25,7 +25,7 @@ const MVR = () => {
     },
     {
       iconClass: "bi bi-award",
-      title: "Responsabilidad social",
+      title: "Valores",
       description:
         "Nos sustentamos en el profesionalismo, la atención resolutiva, la confianza y la honestidad absoluta que nos han caracterizado a lo largo de estos años.",
     },

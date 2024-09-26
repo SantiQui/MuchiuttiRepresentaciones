@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <div className="background-transporte">
-        <h2 className="background-slogan">Tu aliado en la ruta hacia el crecimiento</h2>
+        <h2 className="background-slogan">¡Tu aliado en la ruta hacia el crecimiento!</h2>
         {/* viejo diseño */}
         {/* <div className="desktop-mvr w-full">
           <MVR />

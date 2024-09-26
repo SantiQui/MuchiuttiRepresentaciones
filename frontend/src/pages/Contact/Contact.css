@@ -5,12 +5,17 @@
 .contact-movile {
   max-width: 1080px;
   width: 100%;
+  flex-direction: column-reverse;
+}
+.contact-separator {
+  width: 0;
+  /* display: none; */
 }
 
 @media screen and (min-width: 1050px) {
   .img-contacto {
     height: 65vh;
-    margin-right: 1.2rem;
+    /* margin-right: 1.2rem; */
   }
   .contact-movile {
     display: flex;
@@ -19,5 +24,8 @@
   }
   .contact-movile div form {
     width: 75%;
+  }
+  .contact-separator {
+    width: 10rem;
   }
 }

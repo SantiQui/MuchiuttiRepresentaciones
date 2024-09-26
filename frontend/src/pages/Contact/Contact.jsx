@@ -10,9 +10,10 @@ const Contact = ({ currentPath }) => {
       <Header currentPath={currentPath} />
       <div className="pt-5 w-full w-max">
         <h1 className="py-5 fw-bold text-center">Contáctenos</h1>
-        <div className="contact-movile flex flex-col items-center">
-          <ContactForm />
+        <div className="contact-movile flex items-center">
           <img className="img-contacto" src={contactlogo} />
+          <div className="contact-separator" />
+          <ContactForm />
         </div>
       </div>
     </div>

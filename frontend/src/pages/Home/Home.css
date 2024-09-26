@@ -46,10 +46,15 @@
 }
 
 .background-slogan {
+  background-color: rgba(7, 7, 7, 0.282);
+  padding: 1rem;
+  border-radius: 5px;
+  height: fit-content;
   position: relative !important;
   top: 50% !important;
-  left: 5% !important;
-  font-weight: 600;
+  left: 5%;
+  /* font-size: 5ch; */
+  font-weight: 800;
   color: #fff;
 }
 
@@ -98,8 +103,8 @@
 
 @media screen and (min-width: 1050px) {
   .background-slogan {
-    top: 37% !important;
-    left: -12% !important;
+    top: 18% !important;
+    left: -12.5% !important;
   }
   .red-transparent-truck {
     height: 45vh;

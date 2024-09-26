@@ -28,9 +28,9 @@
 }
 
 @media screen and (min-width: 1050px) {
-  .movile-mvr {
-    /* display: none; */
-  }
+  /* .movile-mvr {
+    display: none;
+  } */
   .desktop-mvr {
     display: flex;
     justify-content: center;
