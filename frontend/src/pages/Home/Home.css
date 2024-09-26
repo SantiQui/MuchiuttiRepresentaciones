@@ -51,9 +51,8 @@
   border-radius: 5px;
   height: fit-content;
   position: relative !important;
-  top: 50% !important;
-  left: 5%;
-  /* font-size: 5ch; */
+  top: 25% !important;
+  font-size: .95rem;
   font-weight: 800;
   color: #fff;
 }
@@ -105,6 +104,7 @@
   .background-slogan {
     top: 18% !important;
     left: -12.5% !important;
+    font-size: 1.8rem;
   }
   .red-transparent-truck {
     height: 45vh;
