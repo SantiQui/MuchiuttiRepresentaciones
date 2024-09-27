@@ -2,7 +2,18 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import "./LogoSlider.css"
+import "./LogoSlider.css";
+import Almar from "../../assets/logos/almar.jpeg";
+import Cardenal from "../../assets/logos/cardenal.jpeg";
+import Deulrel from "../../assets/logos/deulrel.jpeg";
+import Ferraris from "../../assets/logos/ferraris.jpeg";
+import FraccionadoraSanJuan from "../../assets/logos/fraccionadora-san-juan.jpeg";
+import LaboratorioMemis from "../../assets/logos/laboratorio-memis.jpeg";
+import Matilde from "../../assets/logos/matilde.jpeg";
+import MolinosCarmen from "../../assets/logos/molinos-carmen.jpeg";
+import Siglo from "../../assets/logos/siglo.jpeg";
+import Tea from "../../assets/logos/tea.jpeg";
+import Vidalac from "../../assets/logos/vidalac.jpeg";
 const LogoSlider = () => {
   const settings = {
     infinite: true,
@@ -41,37 +52,37 @@ const LogoSlider = () => {
     <div className="slider-container py-5">
     <Slider {...settings}>
       <div className='slide'>
-        <img src="../src/assets/logos/almar.jpeg" alt="" />
+        <img src={Almar} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/cardenal.jpeg" alt="" />
+        <img src={Cardenal} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/deulrel.jpeg" alt="" />
+        <img src={Deulrel} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/ferraris.jpeg" alt="" />
+        <img src={Ferraris} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/fraccionadora-san-juan.jpeg" alt="" />
+        <img src={FraccionadoraSanJuan} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/laboratorio-memis.jpeg" alt="" />
+        <img src={LaboratorioMemis} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/matilde.jpeg" alt="" />
+        <img src={Matilde} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/siglo.jpeg" alt="" />
+        <img src={MolinosCarmen} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/molinos-carmen.jpeg" alt="" />
+        <img src={Siglo} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/tea.jpeg" alt="" />
+        <img src={Tea} alt="" />
       </div>
       <div className='slide'>
-        <img src="../src/assets/logos/vidalac.jpeg" alt="" />
+        <img src={Vidalac} alt="" />
       </div>
     </Slider>
     </div>
