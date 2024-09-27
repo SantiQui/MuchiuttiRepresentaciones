@@ -3,6 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { Button, Row, Col } from "react-bootstrap";
 import MVR from "../../components/MVR/MVR";
+import LogoSlider from "../../components/Slider/LogoSlider";
 const Home = () => {
   const handleScroll = () => {
     const section = document.getElementById("mvr");
@@ -10,9 +11,11 @@ const Home = () => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+  
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <div>
+      <div className="w-full flex flex-col items-center">
       <div className="background-transporte">
         <h2 className="background-slogan">¡Tu aliado en la ruta hacia el crecimiento!</h2>
         {/* viejo diseño */}
@@ -72,7 +75,12 @@ const Home = () => {
           </Col>
         </Row>
       </div>
+      </div>
+      <div>
+        <LogoSlider />
+      </div>
     </div>
+    
   );
 };
 
