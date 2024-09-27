@@ -17,16 +17,16 @@ import PdfCard from "../../components/PdfCard/PdfCard";
 const Catalogs = ({ currentPath, imageUrl }) => {
   const cardData = [
      Almar,
-     Cardenal,
-     Deulrel,
-     Ferraris,
-     FraccionadoraSanJuan,
-     LaboratorioMemis,
-     Matilde,
-     MolinosCarmen,
-     Siglo,
-     Tea,
      Vidalac,
+     Siglo,
+     FraccionadoraSanJuan,
+     Matilde,
+     Ferraris,
+     Cardenal,
+     MolinosCarmen,
+     Deulrel,
+     Tea,
+     LaboratorioMemis,
   ];
   return (
     <div className="w-full flex items-center flex-col">
