@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./LogoSlider.css";
 import Almar from "../../assets/logos/almar.jpeg";
 import Cardenal from "../../assets/logos/cardenal.jpeg";
-import Deulrel from "../../assets/logos/deulrel.jpeg";
+import Deulrel from "../../assets/logos/deulrel.png";
 import Ferraris from "../../assets/logos/ferraris.jpeg";
 import FraccionadoraSanJuan from "../../assets/logos/fraccionadora-san-juan.jpeg";
 import LaboratorioMemis from "../../assets/logos/laboratorio-memis.jpeg";
