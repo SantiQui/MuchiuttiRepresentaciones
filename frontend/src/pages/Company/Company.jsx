@@ -12,7 +12,7 @@ const Company = ({ currentPath }) => {
       <Header currentPath={currentPath} />
       <div className="bg-color-muchiutti py-5 flex justify-center w-full">
         <p className="company-somos w-max flex text-center ">
-          Somos responsables de representar a importantes empresas ofreciendo productos de consumo masivo. Brindamos un
+          Somos responsables de representar a valiosas empresas ofreciendo productos de consumo masivo. Brindamos un
           servicio de atención y asesoramiento personalizado para la concreción de negocios a clientes especiales como
           mayoristas, distribuidores y supermercados.
         </p>
