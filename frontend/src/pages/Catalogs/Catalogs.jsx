@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header";
 import Card from 'react-bootstrap/Card';
 import Almar from "../../assets/logos/almar.jpeg"
 import Cardenal from "../../assets/logos/cardenal.jpeg"
-import Deulrel from "../../assets/logos/deulrel.jpeg"
+import Deulrel from "../../assets/logos/deulrel.png"
 import Ferraris from "../../assets/logos/ferraris.jpeg"
 import FraccionadoraSanJuan from "../../assets/logos/fraccionadora-san-juan.jpeg"
 import LaboratorioMemis from "../../assets/logos/laboratorio-memis.jpeg"
@@ -17,16 +17,16 @@ import PdfCard from "../../components/PdfCard/PdfCard";
 const Catalogs = ({ currentPath, imageUrl }) => {
   const cardData = [
      Almar,
-     Cardenal,
-     Deulrel,
-     Ferraris,
-     FraccionadoraSanJuan,
-     LaboratorioMemis,
-     Matilde,
-     MolinosCarmen,
-     Siglo,
-     Tea,
      Vidalac,
+     Siglo,
+     FraccionadoraSanJuan,
+     Matilde,
+     Ferraris,
+     Cardenal,
+     MolinosCarmen,
+     Deulrel,
+     Tea,
+     LaboratorioMemis,
   ];
   return (
     <div className="w-full flex items-center flex-col">
