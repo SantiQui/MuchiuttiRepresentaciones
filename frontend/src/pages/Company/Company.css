@@ -15,7 +15,7 @@
   .company-container {
     align-items: start !important;
     flex-direction: row-reverse;
-    height: 100%;
+    /* height: 100%; */
     /* max-width: 1400px; */
   }
   .company-foto {
@@ -48,6 +48,6 @@
     width: 45vw !important;
     /* height: 100%; */
     object-fit: cover;
-    aspect-ratio: 0.8;
+    /* aspect-ratio: 0.8; */
   }
 }
