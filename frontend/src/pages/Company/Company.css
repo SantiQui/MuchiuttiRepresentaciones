@@ -15,11 +15,10 @@
 @media screen and (min-width: 1050px) {
   .company-container {
     flex-direction: row-reverse;
-    height: 115vh;
   }
   .company-foto {
     width: 45vw;
-    height: 100%;
+    height: 130vh;
     background-size: contain;
     object-fit: cover;
   }
