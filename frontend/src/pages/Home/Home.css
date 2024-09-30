@@ -1,8 +1,7 @@
 .background-transporte {
-  background-image: url("../../assets/volvo-trucks-1.jpg");
+  background-image: url("../../assets/volvo-trucks-movile.webp");
   position: relative;
   height: 100vh;
-  /* margin-top: 25px; */
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,8 +23,7 @@
   border: none !important;
   position: absolute;
   bottom: 10%;
-  /* transform: translateX(50%); */
-  animation: bounce 2.5s infinite ease-in-out; /* Animación continua */
+  animation: bounce 2.5s infinite ease-in-out; 
 }
 
 .arrow-button i {
@@ -35,14 +33,14 @@
   color: white;
 }
 
-/* Animación de rebote estilo yoyo */
+
 @keyframes bounce {
   0%,
   100% {
-    transform: translateY(0); /* Estado inicial y final (sin movimiento) */
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-15px); /* Sube 20px en el medio del ciclo */
+    transform: translateY(-15px); 
   }
 }
 
@@ -53,7 +51,6 @@
   height: fit-content;
   position: relative !important;
   top: 27.5% !important;
-  /* !important; */
   font-size: 0.9rem;
   font-weight: 800;
   color: #fff;
@@ -68,7 +65,7 @@
 
 .red-transparent-truck {
   position: relative;
-  background-image: url("../../assets/camion-home.webp");
+  background-image: url("../../assets/desktop-camion.webp");
   height: 85vh;
   width: 100%;
   background-size: cover;
@@ -122,7 +119,7 @@
 
 @media screen and (min-width: 1050px) {
   .background-transporte {
-    background-image: url("../../assets/desktop-camion.jpg");
+    /* background-image: url("../../assets/desktop-camion.webp"); */
     /* height: 95vh; */
     margin-top: 45px;
     background-position: bottom;

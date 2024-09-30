@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import "./Operation.css";
-import operatoriaFoto1 from "../../assets/operation1.jpg";
-import operatoriaFoto2 from "../../assets/operation2.jpg";
+import operatoriaFoto1 from "../../assets/operation1.webp";
+import operatoriaFoto2 from "../../assets/operation2.webp";
 
 const Section = ({ title, items }) => (
   <div className="flex flex-col text-start w-full">
