@@ -51,9 +51,9 @@
   border-radius: 5px;
   height: fit-content;
   position: relative !important;
-  top: 75% !important;
+  top: 65% !important;
    /* !important; */
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 800;
   color: #fff;
 }
@@ -103,7 +103,7 @@
 
 @media screen and (min-width: 1050px) {
   .background-slogan {
-    /* top: 18% !important; */
+    top: 70% !important;
     left: -12.5% !important;
     font-size: 1.8rem;
   }
@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 1050px) {
   .background-transporte {
-    height: 75vh;
+    /* height: 75vh; */
     /* margin-top: 100px; */
     background-position: center;
   }
