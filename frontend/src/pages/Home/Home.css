@@ -1,5 +1,5 @@
 .background-transporte {
-  background-image: url("../../assets/camion-home.webp");
+  background-image: url("../../assets/volvo-trucks-1.png");
   position: relative;
   height: 100vh;
   width: 100%;
@@ -46,13 +46,14 @@
 }
 
 .background-slogan {
-  background-color: rgba(7, 7, 7, 0.282);
+  background-color: rgba(7, 7, 7, 0.127);
   padding: 1rem;
   border-radius: 5px;
   height: fit-content;
   position: relative !important;
-  top: 25% !important;
-  font-size: .95rem;
+  top: 75% !important;
+   /* !important; */
+  font-size: 1rem;
   font-weight: 800;
   color: #fff;
 }
@@ -102,7 +103,7 @@
 
 @media screen and (min-width: 1050px) {
   .background-slogan {
-    top: 18% !important;
+    /* top: 18% !important; */
     left: -12.5% !important;
     font-size: 1.8rem;
   }
@@ -117,6 +118,8 @@
 
 @media screen and (max-width: 1050px) {
   .background-transporte {
-    height: 70vh;
+    height: 90vh;
+    margin-top: 100px;
+    background-position: center;
   }
 }

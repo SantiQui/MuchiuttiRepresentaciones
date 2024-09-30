@@ -21,7 +21,7 @@ const MVR = () => {
       iconClass: "bi bi-eye-fill",
       title: "Visión",
       description:
-        "Consolidarse como empresa lider en representaciones comerciales, aumentando el numero de marcas ofrecidas ampliando nuestra capacidad operativa.",
+        "Consolidarse como empresa lider en representaciones comerciales, aumentando el numero de marcas ofrecidas y ampliando nuestra capacidad operativa.",
     },
     {
       iconClass: "bi bi-award",
