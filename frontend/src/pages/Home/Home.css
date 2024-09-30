@@ -1,10 +1,8 @@
 .background-transporte {
-
   background-image: url("../../assets/volvo-trucks-1.jpg");
   position: relative;
   height: 100vh;
   width: 100%;
-  /* margin-top: 20px; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,7 +50,7 @@
   border-radius: 5px;
   height: fit-content;
   position: relative !important;
-  top: 80% !important;
+  top: 75% !important;
   /* !important; */
   font-size: 0.9rem;
   font-weight: 800;
