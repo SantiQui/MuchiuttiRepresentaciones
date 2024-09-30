@@ -1,5 +1,5 @@
 .background-transporte {
-  background-image: url("../../assets/volvo-trucks-1.png");
+  background-image: url("../../assets/volvo-trucks-1.jpg");
   position: relative;
   height: 100vh;
   width: 100%;
@@ -46,12 +46,12 @@
 }
 
 .background-slogan {
-  background-color: rgba(7, 7, 7, 0.127);
+  /* background-color: rgba(7, 7, 7, 0.127); */
   padding: 1rem;
   border-radius: 5px;
   height: fit-content;
   position: relative !important;
-  top: 65% !important;
+  top: 80% !important;
    /* !important; */
   font-size: .9rem;
   font-weight: 800;
@@ -103,8 +103,8 @@
 
 @media screen and (min-width: 1050px) {
   .background-slogan {
-    top: 70% !important;
-    left: -12.5% !important;
+    top: 78.5% !important;
+    /* left: -12.5% !important; */
     font-size: 1.8rem;
   }
   .red-transparent-truck {
