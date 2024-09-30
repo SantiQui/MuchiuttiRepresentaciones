@@ -37,15 +37,16 @@
 }
 
 .operation-img2-movile {
-    display: block;
-    width: 100vw;
-  }
+  display: block;
+  width: 100vw;
+}
 
 @media screen and (min-width: 1050px) {
   .operation-img1-desktop {
     display: block;
-    padding-top: 1rem;
-    height: 95%;
+    top: 0;
+    /* padding-top: 1rem; */
+    height: 100%;
     right: -38%;
     position: absolute;
     object-fit: cover;
@@ -55,15 +56,15 @@
   }
   .second-text-operation {
     width: 50%;
-    margin-right: 7.5%;
+    margin-right: 10%;
   }
 
   .operation-img2-desktop {
     display: block;
-    padding-top: 1rem;
-    width: 40%;
-    height: 80%;
+    /* padding-top: 1rem; */
+    /* width: 35%; */
     left: 0%;
+    top: 0%;
     position: absolute;
     object-fit: cover;
   }
@@ -74,10 +75,19 @@
     display: none;
   }
   .operation-container-1 {
+    /* display: flex; */
+    align-items: start;
+    justify-content: flex-end;
+    align-content: flex-end;
     height: fit-content;
     flex-direction: row;
   }
+  .operation-container-1 div {
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
   .operation-container-2 {
+    position: relative;
     height: fit-content;
     flex-direction: row-reverse;
   }

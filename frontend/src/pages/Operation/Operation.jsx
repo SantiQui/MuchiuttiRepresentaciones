@@ -154,16 +154,16 @@ const Operation = ({ currentPath }) => {
             ))}
           </div>
         </div>
-        <img src={operatoriaFoto1} alt="operation-img" className="operation-img1-desktop " />
+        <img src={operatoriaFoto1} alt="operation-img" className="operation-img1-desktop py-5 " />
       </div>
       <img src={operatoriaFoto1} alt="operation-img" className="operation-img1-movile " />
-      <div className="flex w-full operation-container-2 items-center">
+      <div className="flex w-full operation-container-2 items-center py-5">
         <div className="flex flex-col w-max items-center second-text-operation">
           {sectionData2.map((section, index) => (
             <Section key={index} title={section.title} items={section.items} />
           ))}
         </div>
-        <img src={operatoriaFoto2} alt="" className="operation-img2-desktop" />
+        <img src={operatoriaFoto2} alt="" className="operation-img2-desktop pt-5" />
       </div>
       <img src={operatoriaFoto2} alt="" className="operation-img2-movile" />
     </div>
