@@ -11,8 +11,7 @@
 }
 .card-img{
     height: 10rem;
-    background-size: cover;
-    background-position: center;
+    object-fit: contain;
     padding-bottom: 15px;
 }
 .catalog-card:hover{
