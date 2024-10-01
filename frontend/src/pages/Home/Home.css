@@ -3,10 +3,11 @@
   position: relative;
   height: 100vh;
   width: 100%;
+  /* top: 15px; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  bottom: 45px !important;
+  /* bottom: 130px !important; */
   transition: transform 1s ease-out;
   display: flex;
   justify-content: center;
@@ -22,8 +23,8 @@
   background-color: transparent !important;
   border: none !important;
   position: absolute;
-  bottom: 10%;
-  animation: bounce 2.5s infinite ease-in-out; 
+  bottom: 8.5%;
+  animation: bounce 2.5s infinite ease-in-out;
 }
 
 .arrow-button i {
@@ -33,14 +34,13 @@
   color: white;
 }
 
-
 @keyframes bounce {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-15px); 
+    transform: translateY(-15px);
   }
 }
 
@@ -100,8 +100,12 @@
 }
 
 @media screen and (min-width: 1050px) {
+  .background-transporte {
+    top: 25px;
+    background-position: bottom;
+  }
   .background-transporte .background-slogan {
-    top: 78.5% !important;
+    top: 76% !important;
     /* left: -12.5% !important; */
     font-size: 1.8rem;
   }
@@ -113,15 +117,6 @@
     flex-direction: row !important;
   }
   .arrow-button {
-    bottom: 8%;
-  }
-}
-
-@media screen and (min-width: 1050px) {
-  .background-transporte {
-    /* background-image: url("../../assets/desktop-camion.webp"); */
-    /* height: 95vh; */
-    margin-top: 45px;
-    background-position: bottom;
+    bottom: 5%;
   }
 }

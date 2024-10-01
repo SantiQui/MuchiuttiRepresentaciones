@@ -102,13 +102,13 @@
   }
 }
 
-@media screen and (min-width: 1440px)  {
+@media screen and (min-width: 1450px)  {
   .operation-img1-desktop {
     right: -80%;
     aspect-ratio: 1.15;
   }
   .operation-img2-desktop {
-    /* aspect-ratio: 1.15; */
+    aspect-ratio: 1.75;
   }
 }
 
