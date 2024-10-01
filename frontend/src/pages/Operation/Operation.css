@@ -41,18 +41,41 @@
   width: 100vw;
 }
 
+/* @media screen and (max-width: 1450px) {
+  .operation-img1-desktop {
+    right: -85%;
+    aspect-ratio: 1.15;
+  }
+  .operation-img2-desktop {
+   
+    width: 45%;
+  }
+} */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .operation-img1-desktop {
+    right: -40%;
+    aspect-ratio: 0.75;
+  }
+  .operation-img2-desktop {
+    aspect-ratio: 0.575;
+  }
+}
+
 @media screen and (min-width: 1050px) {
   .operation-img1-desktop {
     display: block;
     height: 107.5%;
-    right: -46.5%;
+    width: 75%;
+    right: -40%;
     position: absolute;
     object-fit: cover;
-    aspect-ratio: 0.8;
+    /* object-position: left; */
+    /* aspect-ratio: 0.8; */
     top: -7.5%;
   }
   .first-text-operation {
-    width: 55%;
+    width: 60%;
   }
   .second-text-operation {
     width: 50%;
@@ -64,6 +87,9 @@
     left: 0%;
     top: 0%;
     height: 100%;
+    left: 0%;
+    width: 37%;
+    /* aspect-ratio: 0.5; */
     position: absolute;
     object-fit: cover;
   }
@@ -90,27 +116,5 @@
     flex-direction: row-reverse;
   }
 }
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .operation-img1-desktop {
-    right: -40%;
-    aspect-ratio: 0.75;
-  }
-  .operation-img2-desktop {
-    aspect-ratio: 0.575;
-  }
-}
-
-@media screen and (min-width: 1450px)  {
-  .operation-img1-desktop {
-    right: -85%;
-    aspect-ratio: 1.15;
-  }
-  .operation-img2-desktop {
-    aspect-ratio: 1.85;
-  }
-}
-
-
 
 
