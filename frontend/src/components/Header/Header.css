@@ -1,4 +1,5 @@
 .background-header {
+  z-index: 9;
   height: 40vh;
   background-position: top center;
   background-size: cover;
