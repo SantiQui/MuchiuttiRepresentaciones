@@ -1,8 +1,13 @@
 .img-cobertura {
-  width: 100%;
+  width: 20vw;
   height: 100%;
+  background-size: contain;
+}
+
+.img-cobertura2 {
+  width: 50%;
+  height: 40%;
   background-size: cover;
-  filter: brightness(85%) contrast(115%) saturate(170%);
 }
 
 @media screen and (min-width: 1050px) {
@@ -14,5 +19,8 @@
     width: 50%;
     height: 100%;
     background-size: cover;
+  }
+  .img-cobertura2 {
+    width: 35%;
   }
 }

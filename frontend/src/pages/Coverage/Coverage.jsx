@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-import imgCobertura from "../../assets/coberturalitoral.webp";
+import imgCobertura from "../../assets/coberturalitoral.png";
+import route from "../../assets/cobertura.webp";
 import "./Coverage.css";
 
 const Coverage = ({ currentPath }) => {
@@ -11,8 +12,8 @@ const Coverage = ({ currentPath }) => {
         <div className="py-4">
           <h1 className="fw-bold">Zona de Distribuición</h1>
           <p>
-            Atendemos en forma independiente las provincias de Santa Fe y Entre Ríos. De acuerdo al requerimiento,
-            podemos brindar nuestros servicios en una o en ambas zonas simultáneamente.
+            Nuestra cobertura se basa en las provincias de Santa Fe y Entre Ríos, atendiendo de forma independiente las
+            principales ciudades y localidades de ambas regiones.
           </p>
           <div>
             <h3 className="fw-bold pb-2">Santa Fe:</h3>
@@ -31,6 +32,7 @@ const Coverage = ({ currentPath }) => {
         </div>
         <img className="img-cobertura" src={imgCobertura} />
       </div>
+      <img className="img-cobertura2" src={route} />
     </div>
   );
 };
