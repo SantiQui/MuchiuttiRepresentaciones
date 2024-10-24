@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import "./Operation.css";
-import operatoriaFoto1 from "../../assets/operation1.webp";
+import operatoriaFoto1 from "../../assets/tipocallcenter.png";
 import operatoriaFoto2 from "../../assets/operation2.webp";
 
 const Section = ({ title, items }) => (
