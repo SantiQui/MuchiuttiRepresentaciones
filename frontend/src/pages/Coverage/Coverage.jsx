@@ -8,8 +8,8 @@ const Coverage = ({ currentPath }) => {
   return (
     <div style={{ backgroundColor: " #f0efeb" }} className="flex jusitfy-center flex-col items-center">
       <Header currentPath={currentPath} />
-      <div className="w-max py-5 coverage-desktop">
-        <div className="py-4">
+      <div className="w-max pt-5 pb-2 coverage-desktop">
+        <div className="pt-4">
           <h1 className="fw-bold">Zona de Cobertura</h1>
           <p>
             Nuestra cobertura se basa en las provincias de <b>Santa Fe y Entre Ríos</b>, atendiendo de forma

@@ -23,6 +23,10 @@
   width: 100%;
 }
 
+.operation-movile{
+width: 100vw;
+}
+
 .operation-img1-desktop {
   display: none;
 }
@@ -32,7 +36,7 @@
 }
 
 .operation-img1-movile {
-  display: block;
+  display: none;
   width: 100vw;
 }
 
@@ -93,6 +97,9 @@
     position: absolute;
     object-fit: cover;
   }
+  .operation-movile {
+    display: none;
+  }
   .operation-img1-movile {
     display: none;
   }
@@ -116,5 +123,3 @@
     flex-direction: row-reverse;
   }
 }
-
-

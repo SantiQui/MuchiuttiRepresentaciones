@@ -57,7 +57,7 @@ const CustomNavbar = ({ currentPath }) => {
                 <Nav.Link href="https://facebook.com" target="_blank" className="text-muted">
                   <i className="bi bi-facebook"></i>
                 </Nav.Link>
-                <Nav.Link href="https://instagram.com" target="_blank" className="text-muted">
+                <Nav.Link href="https://www.instagram.com/muchiuttirepresentaciones/" target="_blank" className="text-muted">
                   <i className="bi bi-instagram"></i>
                 </Nav.Link>
               </Nav>

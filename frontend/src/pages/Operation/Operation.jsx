@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import "./Operation.css";
 import operatoriaFoto1 from "../../assets/tipocallcenter.png";
+import operationMovile from "../../assets/operation1.webp";
 import operatoriaFoto2 from "../../assets/operation2.webp";
 
 const Section = ({ title, items }) => (
@@ -155,8 +156,10 @@ const Operation = ({ currentPath }) => {
           </div>
         </div>
         <img src={operatoriaFoto1} alt="operation-img" className="operation-img1-desktop py-5 " />
+       
       </div>
       <img src={operatoriaFoto1} alt="operation-img" className="operation-img1-movile " />
+      <img src={operationMovile} className="operation-movile"/>
       <div className="flex w-full operation-container-2 items-center py-5">
         <div className="flex flex-col w-max items-center second-text-operation">
           {sectionData2.map((section, index) => (
