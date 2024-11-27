@@ -18,9 +18,9 @@ const CustomNavbar = ({ currentPath }) => {
         </div>
       </div>
       <Navbar style={{ height: "100px" }} expand="lg" className="shadow-sm p-0">
-        <Container className="w-max h-full p-0">
+        <Container className="w-max h-full p-0 ">
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" style={{ height: "100px", padding: "0.5rem 0" }} />
+            <img src={logo} alt="Logo" style={{ height: "85px" }} />
           </Navbar.Brand>
 
           <Navbar.Toggle className="navbar-toogle" aria-controls="offcanvasNavbar" />
@@ -54,10 +54,18 @@ const CustomNavbar = ({ currentPath }) => {
                 ))}
               </Nav>
               <Nav className="navbar-social ">
-                <Nav.Link href="https://facebook.com" target="_blank" className="text-muted">
+                <Nav.Link
+                  href="https://www.facebook.com/profile.php?id=61566572256350"
+                  target="_blank"
+                  className="text-muted"
+                >
                   <i className="bi bi-facebook"></i>
                 </Nav.Link>
-                <Nav.Link href="https://www.instagram.com/muchiuttirepresentaciones/" target="_blank" className="text-muted">
+                <Nav.Link
+                  href="https://www.instagram.com/muchiuttirepresentaciones/"
+                  target="_blank"
+                  className="text-muted"
+                >
                   <i className="bi bi-instagram"></i>
                 </Nav.Link>
               </Nav>
