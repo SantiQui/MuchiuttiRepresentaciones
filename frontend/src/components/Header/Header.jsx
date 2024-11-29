@@ -12,7 +12,7 @@ const Header = ({ currentPath }) => {
     "/cobertura": cobertura,
     "/contacto": contacto,
     "/empresa": empresa,
-    "/operatoria": operatoria,
+    "/operatoria": operatoria, 
   };
 
   const backgroundImage = backgroundImages[currentPath] || "";

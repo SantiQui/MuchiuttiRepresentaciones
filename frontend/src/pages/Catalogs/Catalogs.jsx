@@ -14,26 +14,27 @@ import Tea from "../../assets/logos/tea.webp";
 import Vidalac from "../../assets/logos/vidalac.webp";
 import "./Catalogs.css";
 import PdfCard from "../../components/PdfCard/PdfCard";
-const Catalogs = ({ currentPath, imageUrl }) => {
+const Catalogs = ({ currentPath}) => {
+
   const cardData = [
-    Almar,
-    Vidalac,
-    Siglo,
-    FraccionadoraSanJuan,
-    Matilde,
-    Ferraris,
-    Cardenal,
-    MolinosCarmen,
-    Deulrel,
-    Tea,
-    LaboratorioMemis,
+    {image : Almar, pdf: ""},
+    {image : Vidalac, pdf: "https://drive.google.com/file/d/1sQmR8TPhQuEbpH-qxrYNZ11L9Sh7VRVg/view?usp=drive_link"},
+    {image : Siglo, pdf: "https://drive.google.com/file/d/115V4xc0MSkF6xcAdQfWUw_uMmoOhMI9m/view?usp=drive_link"},
+    {image : FraccionadoraSanJuan, pdf: ""},
+    {image : Matilde, pdf: "https://drive.google.com/file/d/197dcCGyR_HwwMbOd64Hk9yvKQ65vFMev/view?usp=drive_link"},
+    {image : Ferraris, pdf: ""},
+    {image : Cardenal , pdf: "https://drive.google.com/file/d/1Uv7zXV0hMD_fDsxBvmAxDWWhBk7pwlJ9/view?usp=drive_link"},
+    {image : MolinosCarmen, pdf: ""},
+    {image : Deulrel , pdf: ""},
+    {image : Tea, pdf: ""},
+    {image : LaboratorioMemis, pdf: ""},
   ];
   return (
     <div className="w-full flex items-center flex-col">
       <Header currentPath={currentPath} />
       <div className="catalog-container flex w-max justify-center py-5 grid ">
         {cardData.map((data, index) => (
-          <PdfCard key={index} imageUrl={data} />
+          <PdfCard key={index} imageUrl={data.image} pdfUrl ={data.pdf} />
         ))}
       </div>
     </div>

@@ -1,0 +1,25 @@
+.notfound-404{
+    font-weight: bold;
+    font-size: 150px;
+}
+.notfound-page{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.notfound-link{
+    margin-top: 10px;
+    background-color: #CCD5AE;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10%;
+    color: black;
+    font-weight: 600;
+    
+}
+@media screen and (max-witdh: 700px) {
+    .notfound-404{
+        font-size: 150px;
+    }
+    
+}
