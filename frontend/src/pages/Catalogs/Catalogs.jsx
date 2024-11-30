@@ -17,24 +17,24 @@ import PdfCard from "../../components/PdfCard/PdfCard";
 const Catalogs = ({ currentPath}) => {
 
   const cardData = [
-    {image : Almar, pdf: ""},
-    {image : Vidalac, pdf: "https://drive.google.com/file/d/1sQmR8TPhQuEbpH-qxrYNZ11L9Sh7VRVg/view?usp=drive_link"},
-    {image : Siglo, pdf: "https://drive.google.com/file/d/115V4xc0MSkF6xcAdQfWUw_uMmoOhMI9m/view?usp=drive_link"},
-    {image : FraccionadoraSanJuan, pdf: ""},
-    {image : Matilde, pdf: "https://drive.google.com/file/d/197dcCGyR_HwwMbOd64Hk9yvKQ65vFMev/view?usp=drive_link"},
-    {image : Ferraris, pdf: ""},
-    {image : Cardenal , pdf: "https://drive.google.com/file/d/1Uv7zXV0hMD_fDsxBvmAxDWWhBk7pwlJ9/view?usp=drive_link"},
-    {image : MolinosCarmen, pdf: ""},
-    {image : Deulrel , pdf: ""},
-    {image : Tea, pdf: ""},
-    {image : LaboratorioMemis, pdf: ""},
+    {image : Almar, pdfUrl: ""},
+    {image : Vidalac, pdfUrl: "https://drive.google.com/file/d/1sQmR8TPhQuEbpH-qxrYNZ11L9Sh7VRVg/view?usp=drive_link"},
+    {image : Siglo, pdfUrl: "https://drive.google.com/file/d/115V4xc0MSkF6xcAdQfWUw_uMmoOhMI9m/view?usp=drive_link"},
+    {image : FraccionadoraSanJuan, pdfUrl: ""},
+    {image : Matilde, pdfUrl: "https://drive.google.com/file/d/197dcCGyR_HwwMbOd64Hk9yvKQ65vFMev/view?usp=drive_link"},
+    {image : Ferraris, pdfUrl: ""},
+    {image : Cardenal , pdfUrl: "https://drive.google.com/file/d/1Uv7zXV0hMD_fDsxBvmAxDWWhBk7pwlJ9/view?usp=drive_link"},
+    {image : MolinosCarmen, pdfUrl: ""},
+    {image : Deulrel , pdfUrl: ""},
+    {image : Tea, pdfUrl: ""},
+    {image : LaboratorioMemis, pdfUrl: ""},
   ];
   return (
     <div className="w-full flex items-center flex-col">
       <Header currentPath={currentPath} />
       <div className="catalog-container flex w-max justify-center py-5 grid ">
         {cardData.map((data, index) => (
-          <PdfCard key={index} imageUrl={data.image} pdfUrl ={data.pdf} />
+          <PdfCard key={index} imageUrl={data.image} pdfUrl ={data.pdfUrl} />
         ))}
       </div>
     </div>
