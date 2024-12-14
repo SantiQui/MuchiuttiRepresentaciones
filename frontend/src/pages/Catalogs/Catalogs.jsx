@@ -22,11 +22,11 @@ const Catalogs = ({ currentPath}) => {
     {image : Siglo, pdfUrl: "https://drive.google.com/file/d/115V4xc0MSkF6xcAdQfWUw_uMmoOhMI9m/view?usp=drive_link"},
     {image : FraccionadoraSanJuan, pdfUrl: ""},
     {image : Matilde, pdfUrl: "https://drive.google.com/file/d/197dcCGyR_HwwMbOd64Hk9yvKQ65vFMev/view?usp=drive_link"},
-    {image : Ferraris, pdfUrl: ""},
+    {image : Ferraris, pdfUrl: "https://drive.google.com/file/d/1CzE1037M4uhTJmh11E7NrOq0xkEmq5OK/view?usp=drive_link"},
     {image : Cardenal , pdfUrl: "https://drive.google.com/file/d/1Uv7zXV0hMD_fDsxBvmAxDWWhBk7pwlJ9/view?usp=drive_link"},
     {image : MolinosCarmen, pdfUrl: ""},
     {image : Deulrel , pdfUrl: ""},
-    {image : Tea, pdfUrl: ""},
+    {image : Tea, pdfUrl: "https://drive.google.com/file/d/1Z7GQEzBB_P2TCOS8nO5OEgMtIiEeepJw/view?usp=sharing"},
     {image : LaboratorioMemis, pdfUrl: ""},
   ];
   return (
