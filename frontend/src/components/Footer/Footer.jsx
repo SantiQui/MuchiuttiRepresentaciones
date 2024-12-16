@@ -5,8 +5,8 @@ import Col from "react-bootstrap/Col";
 import logo from "../../assets/logo.webp";
 const Footer = () => {
   return (
-    <div className="footer-style py-5 w-full flex items-center">
-      <Row className="footer-div w-max flex justify-center">
+    <div className="footer-style py-5 flex items-center">
+      <Row className="footer-div flex justify-center">
         <Col xs={12} lg={6} className="footer-contacto flex items-center footer-div w-full ">
           <a href="/">
             <img src={logo} alt="Logo" className="footer-img" />
@@ -31,12 +31,13 @@ const Footer = () => {
             </li>
             <li>
             <i className="bi bi-envelope footer-icons"></i>
-            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links">muchiuttirepresentaciones@gmail.com</a>
+            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links footer-links-correo ">Correo electronico</a>
+            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links-web footer-links">mucchiutti-representaciones@gmail.com</a>
             </li>
           </ul>
         </Col>
       </Row>
-      <div className="w-full">
+      <div className="w-max">
         <hr className="hr-style" />
         <p className="footer-copyright text-center py-3" style={{fontSize: "80%"}}>
           Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados
