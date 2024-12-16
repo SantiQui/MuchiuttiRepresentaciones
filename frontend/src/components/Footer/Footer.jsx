@@ -31,8 +31,8 @@ const Footer = () => {
             </li>
             <li>
             <i className="bi bi-envelope footer-icons"></i>
-            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links footer-links-correo ">Correo electronico</a>
-            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links-web footer-links">mucchiutti-representaciones@gmail.com</a>
+            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links footer-links-correo ">Correo electrónico</a>
+            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links-web footer-links">muchiuttirepresentaciones@gmail.com</a>
             </li>
           </ul>
         </Col>
@@ -40,7 +40,9 @@ const Footer = () => {
       <div className="w-max">
         <hr className="hr-style" />
         <p className="footer-copyright text-center py-3" style={{fontSize: "80%"}}>
-          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados
+          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados.
+          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados.
+          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados.
         </p>
       </div>
     </div>
