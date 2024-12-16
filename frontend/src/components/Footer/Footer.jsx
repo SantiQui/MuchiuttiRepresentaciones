@@ -32,7 +32,7 @@ const Footer = () => {
             <li>
             <i className="bi bi-envelope footer-icons"></i>
             <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links footer-links-correo ">Correo electronico</a>
-            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links-web footer-links">mucchiutti-representaciones@gmail.com</a>
+            <a href="mailto:muchiuttirepresentaciones@gmail.com" className="footer-links-web footer-links">muchiutti-representaciones@gmail.com</a>
             </li>
           </ul>
         </Col>
