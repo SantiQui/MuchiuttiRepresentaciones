@@ -40,7 +40,9 @@ const Footer = () => {
       <div className="w-max">
         <hr className="hr-style" />
         <p className="footer-copyright text-center py-3" style={{fontSize: "80%"}}>
-          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados
+          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados.
+          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados.
+          Copyright 2024 © <strong> Muchiutti Representaciones</strong> | Todos los derechos reservados.
         </p>
       </div>
     </div>
