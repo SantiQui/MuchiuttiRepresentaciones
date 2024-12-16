@@ -17,9 +17,7 @@
 }
 .footer-links{
     color: white;
-    padding-left: 10px;
-    
-
+    padding-left: 5px;
 }
 .footer-direccion{
     text-decoration: none;
@@ -47,6 +45,56 @@
 .footer-img{
     height: 100px;
     padding-bottom: 20px;
+}
+.footer-links-web{
+    display: none;
+}
+/* Ajustes generales para mobile */
+.footer-contacto {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centra el texto en mobile */
+}
+
+.footer-img {
+    height: 125px; /* Tamaño fijo para la imagen */
+    margin-bottom: 20px; /* Añade espacio debajo de la imagen */
+}
+
+/* Lista centrada */
+.company-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos de la lista */
+}
+
+.company-lista li {
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media screen and (max-width: 700px) {
+    .footer-div {
+        flex-direction: column; /* Apila las columnas en mobile */
+        align-items: center; /* Asegura el centrado */
+    }
+    .footer-contacto {
+        align-items: center; /* Centra el contenido */
+        text-align: center; /* Centra el texto */
+    }
+}
+@media screen and (min-width: 700px) {
+    .footer-links-correo{
+        display: none;
+    }
+    .footer-links-web{
+        display: block;
+    }
 }
 @media screen and (min-width: 1031px) {
     .footer-div{
