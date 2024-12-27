@@ -26,7 +26,7 @@ const Catalogs = ({ currentPath}) => {
     {image : Cardenal , pdfUrl: "https://drive.google.com/file/d/1Uv7zXV0hMD_fDsxBvmAxDWWhBk7pwlJ9/view?usp=drive_link"},
     {image : MolinosCarmen, pdfUrl: ""},
     {image : Deulrel , pdfUrl: ""},
-    {image : Tea, pdfUrl: "https://drive.google.com/file/d/1Z7GQEzBB_P2TCOS8nO5OEgMtIiEeepJw/view?usp=sharing"},
+    {image : Tea, pdfUrl: "https://drive.google.com/file/d/1XcVVw5vOjcePtbF3B9WYXSW5lBS0xdF_/view?usp=sharing"},
     {image : LaboratorioMemis, pdfUrl: ""},
   ];
   return (
