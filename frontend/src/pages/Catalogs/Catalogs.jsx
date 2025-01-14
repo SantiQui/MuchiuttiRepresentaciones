@@ -18,16 +18,16 @@ const Catalogs = ({ currentPath}) => {
 
   const cardData = [
     {image : Almar, pdfUrl: ""},
-    {image : Vidalac, pdfUrl: "https://drive.google.com/file/d/1sQmR8TPhQuEbpH-qxrYNZ11L9Sh7VRVg/view?usp=drive_link"},
-    {image : Siglo, pdfUrl: "https://drive.google.com/file/d/115V4xc0MSkF6xcAdQfWUw_uMmoOhMI9m/view?usp=drive_link"},
-    {image : FraccionadoraSanJuan, pdfUrl: ""},
+    {image : Vidalac, pdfUrl: "https://drive.google.com/file/d/1sF78CfozjYMDYwMPDagQ4Dz2No9jXEC8/view?usp=sharing"},
+    {image : Siglo, pdfUrl: "https://drive.google.com/file/d/1mFIp00eKD4j6hjJlzOAhGz0Q2idckUCK/view?usp=sharing"},
+    {image : FraccionadoraSanJuan, pdfUrl: "https://drive.google.com/file/d/1mc5bl5sDmyCRObFon6xNbyfo6QuNO3Wj/view?usp=sharing"},
     {image : Matilde, pdfUrl: "https://drive.google.com/file/d/1SvqpMJsCutWbubc0Ad9FGc8OoBAhx6F9/view?usp=drive_link"},
     {image : Ferraris, pdfUrl: "https://drive.google.com/file/d/1CzE1037M4uhTJmh11E7NrOq0xkEmq5OK/view?usp=drive_link"},
-    {image : Cardenal , pdfUrl: "https://drive.google.com/file/d/1Uv7zXV0hMD_fDsxBvmAxDWWhBk7pwlJ9/view?usp=drive_link"},
-    {image : MolinosCarmen, pdfUrl: ""},
+    {image : Cardenal , pdfUrl: "https://drive.google.com/file/d/1aExMcjombZ2Kq1KfpeJh9JtmlafpGCgV/view?usp=sharing"},
+    {image : MolinosCarmen, pdfUrl: "https://drive.google.com/file/d/1ujfKPGZCO-szZmAW4d4GKveb9Gtp0Uzb/view?usp=sharing"},
     {image : Deulrel , pdfUrl: ""},
     {image : Tea, pdfUrl: "https://drive.google.com/file/d/1XcVVw5vOjcePtbF3B9WYXSW5lBS0xdF_/view?usp=sharing"},
-    {image : LaboratorioMemis, pdfUrl: ""},
+    {image : LaboratorioMemis, pdfUrl: "https://drive.google.com/file/d/1Md4ld_rljSqdz5VzyWRPS0eZHSUtnzbK/view?usp=sharing"},
   ];
   return (
     <div className="w-full flex items-center flex-col">
